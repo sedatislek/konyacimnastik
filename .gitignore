@@ -1,0 +1,13 @@
+/vendor
+/node_modules
+.env
+.env.*
+/storage/*
+!/storage/app/public
+/bootstrap/cache/*
+/docker/mysql/*
+!.docker/mysql/.gitkeep
+.idea
+.vscode
+.DS_Store
+Thumbs.db
