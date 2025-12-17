@@ -16,15 +16,14 @@ use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\RoleandaccessController;
 use App\Http\Controllers\Admin\CryptocurrencyController;
 
-Route::controller(DashboardController::class)->group(function () {
-    Route::get('/', 'index')->name('index');
-});
+Route::prefix('admin')->name('admin.')->group(function () {
+
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::controller(HomeController::class)->group(function () {
     Route::get('calendar','calendar')->name('calendar');
     Route::get('chatmessage','chatMessage')->name('chatMessage');
-    Route::get('chatempty','chatempty')->name('chatem
-    pty');
+    Route::get('chatempty','chatempty')->name('chatempty');
     Route::get('email','email')->name('email');
     Route::get('error','error1')->name('error');
     Route::get('faq','faq')->name('faq');
@@ -186,11 +185,13 @@ Route::prefix('roleandaccess')->group(function () {
 });
 
 // Users
-Route::prefix('cryptocurrency')->group(function () {
+Route::prefix('cryptocurrency')->group(callback: function () {
     Route::controller(CryptocurrencyController::class)->group(function () {
         Route::get('/marketplace', 'marketplace')->name('marketplace');
         Route::get('/marketplacedetails', 'marketplaceDetails')->name('marketplaceDetails');
         Route::get('/portfolio', 'portfolio')->name('portfolio');
         Route::get('/wallet', 'wallet')->name('wallet');
     });
+});
+
 });

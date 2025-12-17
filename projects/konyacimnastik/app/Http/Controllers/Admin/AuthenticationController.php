@@ -8,16 +8,16 @@ class AuthenticationController extends Controller
 {
     public function forgotPassword()
     {
-        return view('authentication/forgotPassword');
+        return view('admin.aiapplication.forgotpassword');
     }
 
     public function signIn()
     {
-        return view('authentication/signIn');
+        return view('admin.aiapplication.signin');
     }
 
     public function signUp()
     {
-        return view('authentication/signUp');
+        return view('admin.aiapplication.signup');
     }
 }

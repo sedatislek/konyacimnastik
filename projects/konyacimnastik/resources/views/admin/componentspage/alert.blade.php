@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('admin.layout.layout')
 @php
     $title='Alerts';
     $subTitle = 'Components / Alerts';
@@ -405,6 +405,6 @@
                     </div>
                 </div>
             </div>
-            
+
 @endsection
 

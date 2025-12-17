@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('admin.layout.layout')
 @php
     $title='Currencies';
     $subTitle = 'Settings - Currencies';
@@ -402,5 +402,5 @@
             </div>
         </div>
     </div>
-    
+
 @endsection

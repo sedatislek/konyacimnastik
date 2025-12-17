@@ -1,9 +1,9 @@
-@extends('layout.layout')
+@extends('admin.layout.layout')
 @php
     $title='Colors';
     $subTitle = 'Components / Colors';
     $script = '<script>
-                        // =========================== Copy Color Code when click on box Js Start ================================ 
+                        // =========================== Copy Color Code when click on box Js Start ================================
                         $(".color-box").click(function() {
                             var clipboardText = $(this).find("[data-clipboard-text]").attr("data-clipboard-text");
 
@@ -12,7 +12,7 @@
                             $("body").append(tempInput);
                             tempInput.val(clipboardText).select();
 
-                            // Copy the text to the clipboard 
+                            // Copy the text to the clipboard
                             document.execCommand("copy");
 
                             // Remove the temporary input element
@@ -34,7 +34,7 @@
                             });
 
                         });
-                        // =========================== Copy Color Code when click on box Js End ================================ 
+                        // =========================== Copy Color Code when click on box Js End ================================
     </script>';
 @endphp
 

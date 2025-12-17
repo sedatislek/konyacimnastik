@@ -2,113 +2,114 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class ComponentpageController extends Controller
 {
     public function alert()
     {
-        return view('componentspage/alert');
+        return view('admin.componentpage.alert');
     }
 
     public function avatar()
     {
-        return view('componentspage/avatar');
+        return view('admin.componentpage.avatar');
     }
 
     public function badges()
     {
-        return view('componentspage/badges');
+        return view('admin.componentpage.badges');
     }
 
     public function button()
     {
-        return view('componentspage/button');
+        return view('admin.componentpage.button');
     }
 
     public function calendar()
     {
-        return view('calendar');
+        return view('admin.calendar');
     }
 
     public function card()
     {
-        return view('componentspage/card');
+        return view('admin.card');
     }
 
     public function carousel()
     {
-        return view('componentspage/carousel');
+        return view('admin.carousel');
     }
 
     public function colors()
     {
-        return view('componentspage/colors');
+        return view('admin.componentpage.colors');
     }
 
     public function dropdown()
     {
-        return view('componentspage/dropdown');
+        return view('admin.componentpage.dropdown');
     }
 
     public function imageUpload()
     {
-        return view('componentspage/imageUpload');
+        return view('admin.componentpage.imageUpload');
     }
 
     public function list()
     {
-        return view('componentspage/list');
+        return view('admin.componentpage.list');
     }
 
     public function pagination()
     {
-        return view('componentspage/pagination');
+        return view('admin.componentpage.pagination');
     }
 
     public function progress()
     {
-        return view('componentspage/progress');
+        return view('admin.componentpage.progress');
     }
 
     public function radio()
     {
-        return view('componentspage/radio');
+        return view('admin.componentpage.radio');
     }
 
     public function starRating()
     {
-        return view('componentspage/starRating');
+        return view('admin.componentpage.starRating');
     }
 
     public function switch()
     {
-        return view('componentspage/switch');
+        return view('admin.componentpage.switch');
     }
 
     public function tabs()
     {
-        return view('componentspage/tabs');
+        return view('admin.componentpage.tabs');
     }
 
     public function tags()
     {
-        return view('componentspage/tags');
+        return view('admin.componentpage.tags');
     }
 
     public function tooltip()
     {
-        return view('componentspage/tooltip');
+        return view('admin.componentpage.tooltip');
     }
 
     public function typography()
     {
-        return view('componentspage/typography');
+        return view('admin.componentpage.typography');
     }
 
     public function videos()
     {
-        return view('componentspage/videos');
+        return view('admin.componentpage.videos');
     }
 
 }

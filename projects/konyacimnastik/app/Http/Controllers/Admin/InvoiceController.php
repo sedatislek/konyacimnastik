@@ -2,28 +2,29 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class InvoiceController extends Controller
 {
     public function invoiceAdd()
     {
-        return view('invoice/invoiceAdd');
+        return view('admin.invoice.invoiceAdd');
     }
 
     public function invoiceEdit()
     {
-        return view('invoice/invoiceEdit');
+        return view('admin.invoice.invoiceEdit');
     }
 
     public function invoiceList()
     {
-        return view('invoice/invoiceList');
+        return view('admin.invoice.invoiceList');
     }
 
     public function invoicePreview()
     {
-        return view('invoice/invoicePreview');
+        return view('admin.invoice.invoicePreview');
     }
 
 }

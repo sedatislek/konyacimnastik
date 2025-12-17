@@ -2,43 +2,44 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class AiapplicationController extends Controller
 {
     public function codeGenerator()
     {
-        return view('aiapplication/codeGenerator');
+        return view('admin.aiapplication.codegenerator');
     }
 
     public function codeGeneratorNew()
     {
-        return view('aiapplication/codeGeneratorNew');
+        return view('admin.aiapplication.codegeneratornew');
     }
 
     public function imageGenerator()
     {
-        return view('aiapplication/imageGenerator');
+        return view('admin.aiapplication.imagegenerator');
     }
 
     public function textGenerator()
     {
-        return view('aiapplication/textGenerator');
+        return view('admin.aiapplication.textgenerator');
     }
 
     public function textGeneratorNew()
     {
-        return view('aiapplication/textGeneratorNew');
+        return view('admin.aiapplication.textgeneratornew');
     }
 
     public function videoGenerator()
     {
-        return view('aiapplication/videoGenerator');
+        return view('admin.aiapplication.videogenerator');
     }
 
     public function voiceGenerator()
     {
-        return view('aiapplication/voiceGenerator');
+        return view('admin.aiapplication.voicegenerator');
     }
 
 }
