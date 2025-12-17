@@ -10,11 +10,11 @@
         <div class="col-lg-8">
             <div class="card p-0 radius-12 overflow-hidden">
                 <div class="card-body p-0">
-                    <img src="{{ asset('admin/assets/images/blog/blog-details.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                    <img src="{{ asset('admin-assets/assets/images/blog/blog-details.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                     <div class="p-32">
                         <div class="d-flex align-items-center gap-16 justify-content-between flex-wrap mb-24">
                             <div class="d-flex align-items-center gap-8">
-                                <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-48-px h-48-px rounded-circle object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-48-px h-48-px rounded-circle object-fit-cover">
                                 <div class="d-flex flex-column">
                                     <h6 class="text-lg mb-0">John Doe</h6>
                                     <span class="text-sm text-neutral-500">1 day ago</span>
@@ -47,7 +47,7 @@
                         <div class="comment-list__item">
                             <div class="d-flex align-items-start gap-16">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="flex-grow-1 border-bottom pb-40 mb-40 border-dashed">
                                     <h6 class="text-lg mb-4">Jenny Wilson</h6>
@@ -69,7 +69,7 @@
                         <div class="comment-list__item ms--48">
                             <div class="d-flex align-items-start gap-16">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="flex-grow-1 border-bottom pb-40 mb-40 border-dashed">
                                     <h6 class="text-lg mb-4">Robiul Hasan</h6>
@@ -91,7 +91,7 @@
                         <div class="comment-list__item ms--48">
                             <div class="d-flex align-items-start gap-16">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="flex-grow-1 border-bottom pb-40 mb-40 border-dashed">
                                     <h6 class="text-lg mb-4">John Doe</h6>
@@ -113,7 +113,7 @@
                         <div class="comment-list__item">
                             <div class="d-flex align-items-start gap-16">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list4.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list4.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="flex-grow-1 border-bottom pb-40 mb-40 border-dashed">
                                     <h6 class="text-lg mb-4">Mariam Akter</h6>
@@ -135,7 +135,7 @@
                         <div class="comment-list__item ms--48">
                             <div class="d-flex align-items-start gap-16">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list6.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list6.png') }}" alt="" class="w-60-px h-60-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-lg mb-4">Dainel Defoe</h6>
@@ -206,7 +206,7 @@
                     <div class="card-body d-flex flex-column gap-24 p-24">
                         <div class="d-flex flex-wrap">
                             <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
@@ -217,7 +217,7 @@
                         </div>
                         <div class="d-flex flex-wrap">
                             <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
@@ -228,7 +228,7 @@
                         </div>
                         <div class="d-flex flex-wrap">
                             <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
@@ -239,7 +239,7 @@
                         </div>
                         <div class="d-flex flex-wrap">
                             <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">

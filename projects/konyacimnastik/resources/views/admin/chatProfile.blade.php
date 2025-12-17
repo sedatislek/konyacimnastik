@@ -16,7 +16,7 @@
             </div>
             <div class="chat-main-profile">
                 <div class="img">
-                    <img src="{{ asset('admin/assets/images/chat/chat-main.png') }}" alt="image">
+                    <img src="{{ asset('admin-assets/assets/images/chat/chat-main.png') }}" alt="image">
                 </div>
                 <div class="text-center">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>
@@ -88,7 +88,7 @@
         <div class="chat-main card">
             <div class="chat-sidebar-single active">
                 <div class="img">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image">
                 </div>
                 <div class="info">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>
@@ -124,7 +124,7 @@
             </div><!-- chat-sidebar-single end -->
             <div class="chat-message-list">
                 <div class="chat-single-message left">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
                     <div class="chat-message-content">
                         <p class="mb-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
                         <p class="chat-time mb-0">
@@ -141,7 +141,7 @@
                     </div>
                 </div><!-- chat-single-message end -->
                 <div class="chat-single-message left">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
                     <div class="chat-message-content">
                         <p class="mb-3">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default.Contrary to popular belief, Lorem Ipsum is not simply random text is the model text for your company.</p>
                         <p class="chat-time mb-0">

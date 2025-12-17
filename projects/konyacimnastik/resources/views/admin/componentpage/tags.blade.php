@@ -88,35 +88,35 @@
                         <div class="card-body p-24">
                             <ul class="d-flex flex-wrap align-items-center gap-20 mt-20">
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                 </li>
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                 </li>
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                 </li>
                             </ul>
                             <ul class="tag-list d-flex flex-wrap align-items-center gap-20 mt-20">
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                     <button class="remove-tag text-lg d-flex justify-content-center align-items-center" type="button">
                                         <iconify-icon icon="iconamoon:sign-times-light" class="icon line-height-1"></iconify-icon>
                                     </button>
                                 </li>
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                     <button class="remove-tag text-lg d-flex justify-content-center align-items-center" type="button">
                                         <iconify-icon icon="iconamoon:sign-times-light" class="icon line-height-1"></iconify-icon>
                                     </button>
                                 </li>
                                 <li class="text-secondary-light border radius-4 px-8 py-4 text-sm line-height-1 fw-medium d-flex align-items-center gap-1">
-                                    <img src="{{ asset('admin/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
+                                    <img src="{{ asset('admin-assets/assets/images/flags/flag-tag.png') }}" class="w-16-px h-16-px rounded-circle" alt="">
                                     Label
                                     <button class="remove-tag text-lg d-flex justify-content-center align-items-center" type="button">
                                         <iconify-icon icon="iconamoon:sign-times-light" class="icon line-height-1"></iconify-icon>

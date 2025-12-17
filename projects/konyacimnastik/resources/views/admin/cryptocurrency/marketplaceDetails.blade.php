@@ -131,7 +131,7 @@
 
                     <div class="d-flex align-items-center justify-content-between mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/crypto/bitcoin.png') }}" alt="" class="w-72-px h-72-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/crypto/bitcoin.png') }}" alt="" class="w-72-px h-72-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1 d-flex flex-column">
                                 <h4 class="mb-4">Bitcoin <span class="text-md text-neutral-400 fw-semibold">BTC</span> </h4>
                                 <span class="text-md mb-0 fw-medium text-neutral-500 d-block">Currency in USD. Market Open</span>
@@ -254,7 +254,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Buy</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">ITC</span>
                                                     </div>
@@ -266,7 +266,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Pay with</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">Paypal</span>
                                                     </div>
@@ -294,7 +294,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Buy</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">ITC</span>
                                                     </div>
@@ -306,7 +306,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Pay with</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">Paypal</span>
                                                     </div>
@@ -334,7 +334,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Buy</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">ITC</span>
                                                     </div>
@@ -346,7 +346,7 @@
                                             <span class="text-neutral-500 fw-medium w-76-px border-end">Pay with</span>
                                             <div class="d-flex align-items-center justify-content-between flex-grow-1 ps-16">
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/crypto/paypal.png') }}" alt="" class="w-24-px h-24-px rounded-circle flex-shrink-0 overflow-hidden">
                                                     <div class="flex-grow-1 d-flex flex-column">
                                                         <span class="text-sm mb-0 fw-medium text-primary-light d-block">Paypal</span>
                                                     </div>
@@ -373,7 +373,7 @@
 
                         <div class="d-flex align-items-center justify-content-between flex-wrap gap-8 py-16 border-bottom">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1 d-flex flex-column">
                                     <span class="text-md mb-0 fw-medium text-primary-light d-block">Bitcoin</span>
                                     <span class="text-xs mb-0 fw-normal text-secondary-light">BTC</span>
@@ -386,7 +386,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between flex-wrap gap-8 py-16 border-bottom">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/crypto/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1 d-flex flex-column">
                                     <span class="text-md mb-0 fw-medium text-primary-light d-block">Ethereum</span>
                                     <span class="text-xs mb-0 fw-normal text-secondary-light">ETH</span>
@@ -399,7 +399,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between flex-wrap gap-8 py-16 border-bottom">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1 d-flex flex-column">
                                     <span class="text-md mb-0 fw-medium text-primary-light d-block">Dogecoin</span>
                                     <span class="text-xs mb-0 fw-normal text-secondary-light">DOGE</span>
@@ -412,7 +412,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between flex-wrap gap-8 py-16">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/crypto/crypto-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1 d-flex flex-column">
                                     <span class="text-md mb-0 fw-medium text-primary-light d-block">Digibyte</span>
                                     <span class="text-xs mb-0 fw-normal text-secondary-light">DGB</span>

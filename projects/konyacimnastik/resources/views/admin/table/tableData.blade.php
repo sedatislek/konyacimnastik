@@ -46,7 +46,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526534</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
                                     </div>
                                 </td>
@@ -77,7 +77,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#696589</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
                                     </div>
                                 </td>
@@ -108,7 +108,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#256584</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
                                     </div>
                                 </td>
@@ -139,7 +139,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526587</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
                                     </div>
                                 </td>
@@ -170,7 +170,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#105986</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Leslie Alexander</h6>
                                     </div>
                                 </td>
@@ -201,7 +201,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526589</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list6.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list6.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
                                     </div>
                                 </td>
@@ -232,7 +232,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526520</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list7.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list7.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
                                     </div>
                                 </td>
@@ -263,7 +263,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#256584</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list8.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list8.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Jerome Bell</h6>
                                     </div>
                                 </td>
@@ -294,7 +294,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#200257</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list9.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list9.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
                                     </div>
                                 </td>
@@ -325,7 +325,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526525</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
                                     </div>
                                 </td>
@@ -356,7 +356,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526534</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
                                     </div>
                                 </td>
@@ -387,7 +387,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#696589</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
                                     </div>
                                 </td>
@@ -418,7 +418,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#256584</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
                                     </div>
                                 </td>
@@ -449,7 +449,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526587</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
                                     </div>
                                 </td>
@@ -480,7 +480,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#105986</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Leslie Alexander</h6>
                                     </div>
                                 </td>
@@ -511,7 +511,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526589</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list6.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list6.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
                                     </div>
                                 </td>
@@ -542,7 +542,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526520</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list7.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list7.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
                                     </div>
                                 </td>
@@ -573,7 +573,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#256584</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list8.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list8.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Jerome Bell</h6>
                                     </div>
                                 </td>
@@ -604,7 +604,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#200257</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list9.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list9.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
                                     </div>
                                 </td>
@@ -635,7 +635,7 @@
                                 <td><a  href="javascript:void(0)" class="text-primary-600">#526525</a></td>
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                         <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
                                     </div>
                                 </td>

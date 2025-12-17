@@ -14,7 +14,7 @@
                     <div class="card shadow-none border bg-gradient-end-3">
                         <div class="card-body p-20">
                             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                <img src="{{ asset('admin/assets/images/currency/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/currency/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                 <div class="flex-grow-1">
                                     <h6 class="text-xl mb-1">Bitcoin</h6>
                                     <p class="fw-medium text-secondary-light mb-0">BTC</p>
@@ -35,7 +35,7 @@
                     <div class="card shadow-none border bg-gradient-end-1">
                         <div class="card-body p-20">
                             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                <img src="{{ asset('admin/assets/images/currency/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/currency/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                 <div class="flex-grow-1">
                                     <h6 class="text-xl mb-1">Ethereum </h6>
                                     <p class="fw-medium text-secondary-light mb-0">ETH</p>
@@ -56,7 +56,7 @@
                     <div class="card shadow-none border bg-gradient-end-5">
                         <div class="card-body p-20">
                             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                <img src="{{ asset('admin/assets/images/currency/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/currency/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                 <div class="flex-grow-1">
                                     <h6 class="text-xl mb-1">Solana</h6>
                                     <p class="fw-medium text-secondary-light mb-0">SOL</p>
@@ -77,7 +77,7 @@
                     <div class="card shadow-none border bg-gradient-end-6">
                         <div class="card-body p-20">
                             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                <img src="{{ asset('admin/assets/images/currency/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/currency/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                 <div class="flex-grow-1">
                                     <h6 class="text-xl mb-1">Litecoin</h6>
                                     <p class="fw-medium text-secondary-light mb-0">LTE</p>
@@ -98,7 +98,7 @@
                     <div class="card shadow-none border bg-gradient-end-3">
                         <div class="card-body p-20">
                             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                <img src="{{ asset('admin/assets/images/currency/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/currency/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                 <div class="flex-grow-1">
                                     <h6 class="text-xl mb-1">Dogecoin</h6>
                                     <p class="fw-medium text-secondary-light mb-0">DOGE</p>
@@ -189,7 +189,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-8 radius-4 mb-16">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img1.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img1.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Bitcoin</h6>
                                             </div>
@@ -201,7 +201,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-8 radius-4 mb-16">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img2.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img2.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Ethereum</h6>
                                             </div>
@@ -213,7 +213,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-8 radius-4 mb-16">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img3.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img3.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Solana</h6>
                                             </div>
@@ -225,7 +225,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-8 radius-4 mb-16">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img4.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img4.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Litecoin</h6>
                                             </div>
@@ -237,7 +237,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-8 radius-4 mb-16">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img5.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img5.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Dogecoin</h6>
                                             </div>
@@ -249,7 +249,7 @@
 
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 bg-neutral-200 px-8 py-4 radius-4">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img1.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img1.png') }}" alt="" class="w-36-px h-36-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Crypto</h6>
                                             </div>
@@ -521,12 +521,12 @@
                                     <div>
                                         <div class="card-slider">
                                             <div class="p-20 h-240-px radius-8 overflow-hidden position-relative z-1">
-                                                <img src="{{ asset('admin/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
+                                                <img src="{{ asset('admin-assets/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
 
                                                 <div class="d-flex flex-column justify-content-between h-100">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <h6 class="text-white mb-0">Master Card</h6>
-                                                        <img src="{{ asset('admin/assets/images/card/card-logo.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/card/card-logo.png') }}" alt="">
                                                     </div>
 
                                                     <div>
@@ -548,12 +548,12 @@
 
                                             </div>
                                             <div class="p-20 h-240-px radius-8 overflow-hidden position-relative z-1">
-                                                <img src="{{ asset('admin/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
+                                                <img src="{{ asset('admin-assets/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
 
                                                 <div class="d-flex flex-column justify-content-between h-100">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <h6 class="text-white mb-0">Master Card</h6>
-                                                        <img src="{{ asset('admin/assets/images/card/card-logo.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/card/card-logo.png') }}" alt="">
                                                     </div>
 
                                                     <div>
@@ -575,12 +575,12 @@
 
                                             </div>
                                             <div class="p-20 h-240-px radius-8 overflow-hidden position-relative z-1">
-                                                <img src="{{ asset('admin/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
+                                                <img src="{{ asset('admin-assets/assets/images/card/card-bg.png') }}" alt="" class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1">
 
                                                 <div class="d-flex flex-column justify-content-between h-100">
                                                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                                                         <h6 class="text-white mb-0">Master Card</h6>
-                                                        <img src="{{ asset('admin/assets/images/card/card-logo.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/card/card-logo.png') }}" alt="">
                                                     </div>
 
                                                     <div>

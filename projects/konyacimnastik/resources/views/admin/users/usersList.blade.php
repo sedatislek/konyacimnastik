@@ -77,7 +77,7 @@
                                     <td>25 Jan 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Kathryn Murphy</span>
                                             </div>
@@ -115,7 +115,7 @@
                                     <td>25 Jan 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Annette Black</span>
                                             </div>
@@ -153,7 +153,7 @@
                                     <td>10 Feb 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Ronald Richards</span>
                                             </div>
@@ -192,7 +192,7 @@
                                     <td>10 Feb 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Eleanor Pena</span>
                                             </div>
@@ -231,7 +231,7 @@
                                     <td>15 March 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Leslie Alexander</span>
                                             </div>
@@ -270,7 +270,7 @@
                                     <td>15 March 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Albert Flores</span>
                                             </div>
@@ -309,7 +309,7 @@
                                     <td>27 April 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list7.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list7.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Jacob Jones</span>
                                             </div>
@@ -348,7 +348,7 @@
                                     <td>25 Jan 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list8.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list8.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Jerome Bell</span>
                                             </div>
@@ -387,7 +387,7 @@
                                     <td>30 April 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Marvin McKinney</span>
                                             </div>
@@ -426,7 +426,7 @@
                                     <td>30 April 2024</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-list/user-list10.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-list/user-list10.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <span class="text-md mb-0 fw-normal text-secondary-light">Cameron Williamson</span>
                                             </div>

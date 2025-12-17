@@ -410,7 +410,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                             <div class="d-flex align-items-center w-100">
-                                <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-sm mb-0">USA</h6>
                                     <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -428,7 +428,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                             <div class="d-flex align-items-center w-100">
-                                <img src="{{ asset('admin/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-sm mb-0">Japan</h6>
                                     <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -446,7 +446,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                             <div class="d-flex align-items-center w-100">
-                                <img src="{{ asset('admin/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-sm mb-0">France</h6>
                                     <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -464,7 +464,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center w-100">
-                                <img src="{{ asset('admin/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-sm mb-0">Germany</h6>
                                     <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -504,7 +504,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Dianne Russell</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -515,7 +515,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Wade Warren</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -526,7 +526,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Albert Flores</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -537,7 +537,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Bessie Cooper</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -548,7 +548,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Arlene McCoy</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -559,7 +559,7 @@
 
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Arlene McCoy</h6>
                                     <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>

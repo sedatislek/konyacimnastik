@@ -131,7 +131,7 @@
                                             <button type="button" class="uploaded-img__remove position-absolute top-0 end-0 z-1 text-2xxl line-height-1 me-8 mt-8 d-flex bg-danger-600 w-40-px h-40-px justify-content-center align-items-center rounded-circle">
                                                 <iconify-icon icon="radix-icons:cross-2" class="text-2xl text-white"></iconify-icon>
                                             </button>
-                                            <img id="uploaded-img__preview" class="w-100 h-100 object-fit-cover" src="{{ asset('admin/assets/images/user.png') }}" alt="image">
+                                            <img id="uploaded-img__preview" class="w-100 h-100 object-fit-cover" src="{{ asset('admin-assets/assets/images/user.png') }}" alt="image">
                                         </div>
                                         <label class="upload-file h-160-px w-100 border input-form-light radius-8 overflow-hidden border-dashed bg-neutral-50 bg-hover-neutral-200 d-flex align-items-center flex-column justify-content-center gap-1" for="upload-file">
                                             <iconify-icon icon="solar:camera-outline" class="text-xl text-secondary-light"></iconify-icon>
@@ -158,7 +158,7 @@
                             <div class="card-body d-flex flex-column gap-24 p-24">
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -202,7 +202,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -213,7 +213,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
@@ -224,7 +224,7 @@
                                 </div>
                                 <div class="d-flex flex-wrap">
                                     <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
-                                        <img src="{{ asset('admin/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">

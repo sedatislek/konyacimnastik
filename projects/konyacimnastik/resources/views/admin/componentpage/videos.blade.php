@@ -21,7 +21,7 @@
                         </div>
                         <div class="card-body p-24">
                             <div class="position-relative">
-                                <img src="{{ asset('admin/assets/images/videos/video-img1.png') }}" class="w-100 h-100 object-fit-cover radius-8" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/videos/video-img1.png') }}" class="w-100 h-100 object-fit-cover radius-8" alt="">
                                 <a  href="https://www.youtube.com/watch?v=Vr9WoWXkKeE" class="magnific-video bordered-shadow w-56-px h-56-px bg-white rounded-circle d-flex justify-content-center align-items-center position-absolute start-50 top-50 translate-middle z-1">
                                     <iconify-icon icon="ion:play" class="text-primary-600 text-xxl"></iconify-icon>
                                 </a>
@@ -39,7 +39,7 @@
                                 <div class="col-sm-6">
                                     <div class="border bg-base radius-8 overflow-hidden ">
                                         <div class="position-relative max-h-258-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/videos/video-img2.png') }}" class="w-100 object-fit-cover" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/videos/video-img2.png') }}" class="w-100 object-fit-cover" alt="">
                                             <a  href="https://www.youtube.com/watch?v=Vr9WoWXkKeE" class="magnific-video bordered-shadow w-56-px h-56-px bg-white rounded-circle d-flex justify-content-center align-items-center position-absolute start-50 top-50 translate-middle z-1">
                                                 <iconify-icon icon="ion:play" class="text-primary-600 text-xxl"></iconify-icon>
                                             </a>
@@ -53,7 +53,7 @@
                                 <div class="col-sm-6">
                                     <div class="border bg-base radius-8 overflow-hidden ">
                                         <div class="position-relative max-h-258-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/videos/video-img3.png') }}" class="w-100 object-fit-cover" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/videos/video-img3.png') }}" class="w-100 object-fit-cover" alt="">
                                             <a  href="https://www.youtube.com/watch?v=Vr9WoWXkKeE" class="magnific-video bordered-shadow w-56-px h-56-px bg-white rounded-circle d-flex justify-content-center align-items-center position-absolute start-50 top-50 translate-middle z-1">
                                                 <iconify-icon icon="ion:play" class="text-primary-600 text-xxl"></iconify-icon>
                                             </a>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="card-body p-24">
                             <div class="position-relative">
-                                <img src="{{ asset('admin/assets/images/videos/video-img4.png') }}" class="w-100 h-100 object-fit-cover radius-8" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/videos/video-img4.png') }}" class="w-100 h-100 object-fit-cover radius-8" alt="">
                                 <a  href="https://www.youtube.com/watch?v=Vr9WoWXkKeE" class="magnific-video bordered-shadow w-56-px h-56-px bg-white rounded-circle d-flex justify-content-center align-items-center position-absolute start-50 top-50 translate-middle z-1">
                                     <iconify-icon icon="ion:play" class="text-primary-600 text-xxl"></iconify-icon>
                                 </a>

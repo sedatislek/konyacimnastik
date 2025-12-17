@@ -44,7 +44,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -55,7 +55,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -66,7 +66,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -77,7 +77,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -88,7 +88,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -99,7 +99,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -110,7 +110,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -121,7 +121,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -132,7 +132,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -143,7 +143,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -154,7 +154,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -165,7 +165,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -180,7 +180,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -191,7 +191,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -202,7 +202,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -213,7 +213,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -224,7 +224,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -235,7 +235,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -246,7 +246,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -257,7 +257,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -268,7 +268,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -279,7 +279,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -294,7 +294,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -305,7 +305,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -316,7 +316,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -327,7 +327,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -338,7 +338,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -349,7 +349,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -360,7 +360,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -371,7 +371,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -382,7 +382,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -393,7 +393,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -404,7 +404,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -419,7 +419,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -430,7 +430,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -441,7 +441,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -452,7 +452,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -463,7 +463,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -474,7 +474,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -485,7 +485,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -496,7 +496,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -507,7 +507,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -518,7 +518,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -529,7 +529,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -540,7 +540,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -555,7 +555,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img6.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -566,7 +566,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img7.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -577,7 +577,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img8.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -588,7 +588,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img1.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -599,7 +599,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img2.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -610,7 +610,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img3.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -621,7 +621,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img4.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -632,7 +632,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img5.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -643,7 +643,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img9.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -654,7 +654,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img10.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -665,7 +665,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img11.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>
@@ -676,7 +676,7 @@
                         <div class="col-xxl-3 col-md-4 col-sm-6">
                             <div class="hover-scale-img border radius-16 overflow-hidden">
                                 <div class="max-h-266-px overflow-hidden">
-                                    <img src="{{ asset('admin/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/gallery/gallery-img12.png') }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                 </div>
                                 <div class="py-16 px-24">
                                     <h6 class="mb-4">This is Image title</h6>

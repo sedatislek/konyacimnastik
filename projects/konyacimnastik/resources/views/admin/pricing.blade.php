@@ -38,7 +38,7 @@
                                             <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-lilac-100">
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon1.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon1.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-secondary-light">For individuals</span>
@@ -82,7 +82,7 @@
                                                 <span class="bg-white bg-opacity-25 text-white radius-24 py-8 px-24 text-sm position-absolute end-0 top-0 z-1 rounded-start-top-0 rounded-end-bottom-0">Popular</span>
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon2.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon2.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-white">For startups</span>
@@ -126,7 +126,7 @@
                                             <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-success-100">
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon3.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon3.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-secondary-light">For big companies</span>
@@ -174,7 +174,7 @@
                                             <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-lilac-100">
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon1.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon1.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-secondary-light">For individuals</span>
@@ -219,7 +219,7 @@
                                                 <span class="bg-white bg-opacity-25 text-white radius-24 py-8 px-24 text-sm position-absolute end-0 top-0 z-1 rounded-start-top-0 rounded-end-bottom-0">Popular</span>
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon2.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon2.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-white">For startups</span>
@@ -263,7 +263,7 @@
                                             <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-success-100">
                                                 <div class="d-flex align-items-center gap-16">
                                                     <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                        <img src="{{ asset('admin/assets/images/pricing/price-icon3.png') }}" alt="">
+                                                        <img src="{{ asset('admin-assets/assets/images/pricing/price-icon3.png') }}" alt="">
                                                     </span>
                                                     <div class="">
                                                         <span class="fw-medium text-md text-secondary-light">For big companies</span>
@@ -336,7 +336,7 @@
                                     <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-base">
                                         <div class="d-flex align-items-center gap-16">
                                             <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-primary-50">
-                                                <img src="{{ asset('admin/assets/images/pricing/price-icon4.png') }}" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/pricing/price-icon4.png') }}" alt="">
                                             </span>
                                             <div class="">
                                                 <span class="fw-medium text-md text-secondary-light">For individuals</span>
@@ -377,11 +377,11 @@
                                 </div>
                                 <div class="col-xxl-4 col-sm-6">
                                     <div class="pricing-plan featured-item position-relative radius-24 overflow-hidden border bg-primary-600 text-white z-1">
-                                        <img src="{{ asset('admin/assets/images/pricing/pricing-shape.png') }}" alt="" class="position-absolute end-0 top-10 z-n1">
+                                        <img src="{{ asset('admin-assets/assets/images/pricing/pricing-shape.png') }}" alt="" class="position-absolute end-0 top-10 z-n1">
                                         <span class="bg-white bg-opacity-25 text-white radius-24 py-8 px-24 text-sm position-absolute end-0 top-0 z-1 rounded-start-top-0 rounded-end-bottom-0">Popular</span>
                                         <div class="d-flex align-items-center gap-16">
                                             <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base">
-                                                <img src="{{ asset('admin/assets/images/pricing/price-icon2.png') }}" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/pricing/price-icon2.png') }}" alt="">
                                             </span>
                                             <div class="">
                                                 <span class="fw-medium text-md text-white">For startups</span>
@@ -425,7 +425,7 @@
                                     <div class="pricing-plan position-relative radius-24 overflow-hidden border bg-base">
                                         <div class="d-flex align-items-center gap-16">
                                             <span class="w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-primary-50">
-                                                <img src="{{ asset('admin/assets/images/pricing/price-icon5.png') }}" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/pricing/price-icon5.png') }}" alt="">
                                             </span>
                                             <div class="">
                                                 <span class="fw-medium text-md text-secondary-light">For big companies</span>

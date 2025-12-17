@@ -82,7 +82,7 @@
                         </div><!-- chat-sidebar-single end -->
                         <div class="chat-message-list max-h-612-px min-h-612-px position-relative">
                             <div class="d-flex align-items-center justify-content-center flex-column h-100 position-absolute top-50 start-50 translate-middle">
-                                <img src="{{ asset('admin/assets/images/chatgpt/empty-message-icon2.png') }}" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/chatgpt/empty-message-icon2.png') }}" alt="">
                                 <span class="text-secondary-light text-md mt-16">Type New Message </span>
                             </div>
                         </div>

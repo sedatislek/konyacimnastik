@@ -16,7 +16,7 @@
                                 <p class="mb-0 text-secondary-light max-w-634-px text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard du text ever since the 1500s, when an unkn</p>
                             </div>
                             <div class="col-xl-5 d-xl-block d-none">
-                                <img src="{{ asset('admin/assets/images/faq-img.png') }}" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/faq-img.png') }}" alt="">
                             </div>
                         </div>
                     </div>

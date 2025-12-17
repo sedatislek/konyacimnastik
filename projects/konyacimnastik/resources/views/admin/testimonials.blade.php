@@ -13,7 +13,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Robert Fox</h6>
@@ -38,7 +38,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Robiul Hasan</h6>
@@ -63,7 +63,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">John Doe</h6>
@@ -88,7 +88,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list4.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list4.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Annette Black</h6>
@@ -113,7 +113,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list5.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list5.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Kathryn Murphy </h6>
@@ -138,7 +138,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list7.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list7.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Ronald Richards </h6>
@@ -163,7 +163,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list8.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list8.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Eleanor Pena</h6>
@@ -188,7 +188,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list9.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list9.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0"> Leslie Alexander</h6>
@@ -213,7 +213,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-2">
                                 <div class="d-flex align-items-center gap-12 flex-wrap">
                                     <div class="w-56-px h-56-px overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list10.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list10.png') }}" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
                                     </div>
                                     <div class="d-flex flex-column flex-grow-1">
                                         <h6 class="text-xl mb-0">Eleanor Pena</h6>

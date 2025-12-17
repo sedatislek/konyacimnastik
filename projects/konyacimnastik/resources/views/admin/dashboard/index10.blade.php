@@ -383,7 +383,7 @@
                     <div class="d-flex flex-column gap-24">
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Psychiatry</h6>
                                     <span class="text-sm text-secondary-light fw-normal">Super Admin</span>
@@ -393,7 +393,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Orthopedic</h6>
                                     <span class="text-sm text-secondary-light fw-normal">Admin</span>
@@ -403,7 +403,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Cardiology</h6>
                                     <span class="text-sm text-secondary-light fw-normal">Manager</span>
@@ -413,7 +413,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Pediatrics</h6>
                                     <span class="text-sm text-secondary-light fw-normal">Admin</span>
@@ -423,7 +423,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0">Neurology </h6>
                                     <span class="text-sm text-secondary-light fw-normal">Manager</span>

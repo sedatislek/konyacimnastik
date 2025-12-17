@@ -493,7 +493,7 @@
                                     <div class="d-flex flex-column gap-24">
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Dr. Davis</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Cardiology</span>
@@ -503,7 +503,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Dr. Riead</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Orthopedics</span>
@@ -513,7 +513,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Albert Flores</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Ophthalmology</span>
@@ -523,7 +523,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Dr. Smith</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Cardiology</span>
@@ -533,7 +533,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Dr. Johnson</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Cardiology</span>
@@ -543,7 +543,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/doctor-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/doctor-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0">Dr. Martinez</h6>
                                                     <span class="text-sm text-secondary-light fw-medium">Cardiology</span>
@@ -683,7 +683,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-info-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon1.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon1.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Psychiatry</h6>
@@ -695,7 +695,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-success-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon2.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon2.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Orthopedic</h6>
@@ -707,7 +707,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-lilac-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon3.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon3.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Cardiology</h6>
@@ -719,7 +719,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-warning-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon4.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon4.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Pediatrics</h6>
@@ -731,7 +731,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-danger-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon5.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon5.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Neurology </h6>
@@ -743,7 +743,7 @@
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                                         <div class="d-flex align-items-center gap-12">
                                             <div class="w-40-px h-40-px rounded-circle flex-shrink-0 bg-primary-50 d-flex justify-content-center align-items-center">
-                                                <img src="{{ asset('admin/assets/images/home-eight/treatment-icon6.png') }}" alt="" class="">
+                                                <img src="{{ asset('admin-assets/assets/images/home-eight/treatment-icon6.png') }}" alt="" class="">
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0 fw-normal">Gastroenterology</h6>
@@ -772,7 +772,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Checkup Result.pdf</h6>
@@ -791,7 +791,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-text.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-text.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Checkup Result.doc</h6>
@@ -810,7 +810,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Prescription.pdf</h6>
@@ -829,7 +829,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-text.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-text.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Xray Result.doc</h6>
@@ -848,7 +848,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-pdf.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Glucose Level Report.pdf</h6>
@@ -867,7 +867,7 @@
                                         <div class="d-flex align-items-center justify-content-between gap-3">
                                             <div class="d-flex align-items-center gap-12">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ asset('admin/assets/images/home-eight/icon-text.png') }}" alt="" class="">
+                                                    <img src="{{ asset('admin-assets/assets/images/home-eight/icon-text.png') }}" alt="" class="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="text-md mb-0 fw-normal">Checkup Result.doc</h6>

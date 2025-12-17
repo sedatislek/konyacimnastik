@@ -176,7 +176,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/product/product-img1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/product/product-img1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Blue t-shirt</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Fashion</span>
@@ -193,7 +193,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/product/product-img2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/product/product-img2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Nike Air Shoe</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Fashion</span>
@@ -210,7 +210,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/product/product-img3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/product/product-img3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Woman Dresses</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Fashion</span>
@@ -227,7 +227,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/product/product-img4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/product/product-img4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Smart Watch</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Fashion</span>
@@ -244,7 +244,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/product/product-img5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/product/product-img5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Hoodie Rose</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Fashion</span>
@@ -480,7 +480,7 @@
                                             <td class="bg-primary-light">27 Mar 2024</td>
                                             <td class="bg-primary-light">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                     <h6 class="text-md mb-0 fw-medium flex-grow-1">Dianne Russell</h6>
                                                 </div>
                                             </td>
@@ -491,7 +491,7 @@
                                             <td class="bg-success-focus">27 Mar 2024</td>
                                             <td class="bg-success-focus">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                     <h6 class="text-md mb-0 fw-medium flex-grow-1">Wade Warren</h6>
                                                 </div>
                                             </td>
@@ -502,7 +502,7 @@
                                             <td class="bg-info-focus">27 Mar 2024</td>
                                             <td class="bg-info-focus">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                     <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
                                                 </div>
                                             </td>
@@ -513,7 +513,7 @@
                                             <td class="bg-warning-focus">27 Mar 2024</td>
                                             <td class="bg-warning-focus">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                     <h6 class="text-md mb-0 fw-medium flex-grow-1">Bessie Cooper</h6>
                                                 </div>
                                             </td>
@@ -524,7 +524,7 @@
                                             <td class="bg-danger-focus">27 Mar 2024</td>
                                             <td class="bg-danger-focus">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                                     <h6 class="text-md mb-0 fw-medium flex-grow-1">Arlene McCoy</h6>
                                                 </div>
                                             </td>
@@ -559,7 +559,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                                     <span class="text-lg text-secondary-light fw-semibold flex-grow-1">Dianne Russell</span>
                                                 </div>
                                             </td>
@@ -572,7 +572,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                                     <span class="text-lg text-secondary-light fw-semibold flex-grow-1">Wade Warren</span>
                                                 </div>
                                             </td>
@@ -585,7 +585,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                                     <span class="text-lg text-secondary-light fw-semibold flex-grow-1">Albert Flores</span>
                                                 </div>
                                             </td>
@@ -598,7 +598,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                                     <span class="text-lg text-secondary-light fw-semibold flex-grow-1">Bessie Cooper</span>
                                                 </div>
                                             </td>
@@ -611,7 +611,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/users/user5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <img src="{{ asset('admin-assets/assets/images/users/user5.png') }}" alt="" class="flex-shrink-0 me-12 radius-8">
                                                     <span class="text-lg text-secondary-light fw-semibold flex-grow-1">Arlene McCoy</span>
                                                 </div>
                                             </td>

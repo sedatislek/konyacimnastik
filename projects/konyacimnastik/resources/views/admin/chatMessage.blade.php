@@ -11,7 +11,7 @@
         <div class="chat-sidebar card">
             <div class="chat-sidebar-single active top-profile">
                 <div class="img">
-                    <img src="{{ asset('admin/assets/images/chat/1.png') }}" alt="image">
+                    <img src="{{ asset('admin-assets/assets/images/chat/1.png') }}" alt="image">
                 </div>
                 <div class="info">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>
@@ -48,7 +48,7 @@
             <div class="chat-all-list">
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/2.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/2.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Kathryn Murphy</h6>
@@ -61,7 +61,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/3.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/3.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">James Michael</h6>
@@ -74,7 +74,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/4.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/4.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Russell Lucas</h6>
@@ -87,7 +87,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/5.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/5.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Caleb Bradley</h6>
@@ -100,7 +100,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/6.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/6.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Bobby Roy</h6>
@@ -113,7 +113,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/7.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/7.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Vincent Liam</h6>
@@ -126,7 +126,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/8.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/8.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Randy Mason</h6>
@@ -139,7 +139,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/9.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/9.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Albert Wayne</h6>
@@ -152,7 +152,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/10.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/10.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Elijah Willie</h6>
@@ -165,7 +165,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/2.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/2.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Kathryn Murphy</h6>
@@ -178,7 +178,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/3.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/3.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">James Michael</h6>
@@ -191,7 +191,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/4.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/4.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Russell Lucas</h6>
@@ -204,7 +204,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/5.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/5.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Caleb Bradley</h6>
@@ -217,7 +217,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/6.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/6.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Bobby Roy</h6>
@@ -230,7 +230,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/7.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/7.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Vincent Liam</h6>
@@ -243,7 +243,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/8.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/8.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Randy Mason</h6>
@@ -256,7 +256,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/9.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/9.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Albert Wayne</h6>
@@ -269,7 +269,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="{{ asset('admin/assets/images/chat/10.png') }}" alt="image">
+                        <img src="{{ asset('admin-assets/assets/images/chat/10.png') }}" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Elijah Willie</h6>
@@ -285,7 +285,7 @@
         <div class="chat-main card">
             <div class="chat-sidebar-single active">
                 <div class="img">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image">
                 </div>
                 <div class="info">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>
@@ -321,7 +321,7 @@
             </div><!-- chat-sidebar-single end -->
             <div class="chat-message-list">
                 <div class="chat-single-message left">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
                     <div class="chat-message-content">
                         <p class="mb-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
                         <p class="chat-time mb-0">
@@ -338,7 +338,7 @@
                     </div>
                 </div><!-- chat-single-message end -->
                 <div class="chat-single-message left">
-                    <img src="{{ asset('admin/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
+                    <img src="{{ asset('admin-assets/assets/images/chat/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
                     <div class="chat-message-content">
                         <p class="mb-3">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default.Contrary to popular belief, Lorem Ipsum is not simply random text is the model text for your company.</p>
                         <p class="chat-time mb-0">

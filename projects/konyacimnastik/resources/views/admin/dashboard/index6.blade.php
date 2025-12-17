@@ -457,7 +457,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-info-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon1.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon1.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Web Development</h6>
@@ -471,7 +471,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-success-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon2.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon2.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Graphic Design</h6>
@@ -485,7 +485,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-lilac-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon3.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon3.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">UI/UX Design</h6>
@@ -499,7 +499,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-warning-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon4.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon4.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Digital Marketing</h6>
@@ -513,7 +513,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-danger-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon5.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon5.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">3d Illustration & Art Design</h6>
@@ -527,7 +527,7 @@
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                         <div class="d-flex align-items-center gap-12">
                             <div class="w-40-px h-40-px radius-8 flex-shrink-0 bg-primary-50 d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('admin/assets/images/home-six/category-icon6.png') }}" alt="" class="">
+                                <img src="{{ asset('admin-assets/assets/images/home-six/category-icon6.png') }}" alt="" class="">
                             </div>
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-normal">Logo Design</h6>
@@ -559,7 +559,7 @@
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Dianne Russell</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -579,7 +579,7 @@
 
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Wade Warren</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -599,7 +599,7 @@
 
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Albert Flores</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -619,7 +619,7 @@
 
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Bessie Cooper</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -639,7 +639,7 @@
 
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Arlene McCoy</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -659,7 +659,7 @@
 
                     <div class="d-flex align-items-center justify-content-between gap-3">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/users/user1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Arlene McCoy</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
@@ -696,7 +696,7 @@
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img1.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img1.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Theresa Webb</h6>
                                 <span class="text-sm text-secondary-light fw-medium">UI/UX Design Course</span>
@@ -714,7 +714,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img2.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img2.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Robert Fox</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Graphic Design Course</span>
@@ -732,7 +732,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img3.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img3.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Guy Hawkins</h6>
                                 <span class="text-sm text-secondary-light fw-medium">Web developer Course</span>
@@ -750,7 +750,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img4.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img4.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Cody Fisher</h6>
                                 <span class="text-sm text-secondary-light fw-medium">UI/UX Design Course</span>
@@ -768,7 +768,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img5.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img5.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Jacob Jones</h6>
                                 <span class="text-sm text-secondary-light fw-medium">UI/UX Design Course</span>
@@ -786,7 +786,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                         <div class="d-flex align-items-center">
-                            <img src="{{ asset('admin/assets/images/home-six/student-img6.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
+                            <img src="{{ asset('admin-assets/assets/images/home-six/student-img6.png') }}" alt="" class="w-40-px h-40-px radius-8 flex-shrink-0 me-12 overflow-hidden">
                             <div class="flex-grow-1">
                                 <h6 class="text-md mb-0 fw-medium">Darlene Robertson</h6>
                                 <span class="text-sm text-secondary-light fw-medium">UI/UX Design Course</span>

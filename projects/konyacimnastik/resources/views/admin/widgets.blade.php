@@ -1354,7 +1354,7 @@
                                 <div class="card shadow-none border bg-gradient-end-3">
                                     <div class="card-body p-20">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-xl mb-1">Bitcoin</h6>
                                                 <p class="fw-medium text-secondary-light mb-0">BTC</p>
@@ -1375,7 +1375,7 @@
                                 <div class="card shadow-none border bg-gradient-end-1">
                                     <div class="card-body p-20">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-xl mb-1">Ethereum </h6>
                                                 <p class="fw-medium text-secondary-light mb-0">ETH</p>
@@ -1396,7 +1396,7 @@
                                 <div class="card shadow-none border bg-gradient-end-5">
                                     <div class="card-body p-20">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-xl mb-1">Solana</h6>
                                                 <p class="fw-medium text-secondary-light mb-0">SOL</p>
@@ -1417,7 +1417,7 @@
                                 <div class="card shadow-none border bg-gradient-end-6">
                                     <div class="card-body p-20">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-xl mb-1">Litecoin</h6>
                                                 <p class="fw-medium text-secondary-light mb-0">LTE</p>
@@ -1438,7 +1438,7 @@
                                 <div class="card shadow-none border bg-gradient-end-3">
                                     <div class="card-body p-20">
                                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                            <img src="{{ asset('admin/assets/images/currency/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
+                                            <img src="{{ asset('admin-assets/assets/images/currency/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-xl mb-1">Dogecoin</h6>
                                                 <p class="fw-medium text-secondary-light mb-0">DOGE</p>
@@ -1508,7 +1508,7 @@
                                         <div class="max-h-266-px overflow-y-auto scroll-sm pe-16">
                                             <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">USA</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -1526,7 +1526,7 @@
 
                                             <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">Japan</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -1544,7 +1544,7 @@
 
                                             <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">France</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -1562,7 +1562,7 @@
 
                                             <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">Germany</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -1580,7 +1580,7 @@
 
                                             <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">South Korea</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -1597,7 +1597,7 @@
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between gap-3">
                                                 <div class="d-flex align-items-center w-100">
-                                                    <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-sm mb-0">USA</h6>
                                                         <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>

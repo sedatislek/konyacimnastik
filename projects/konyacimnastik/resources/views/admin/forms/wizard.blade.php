@@ -390,7 +390,7 @@
 
                                     <fieldset class="wizard-fieldset">
                                         <div class="text-center mb-40">
-                                            <img src="{{ asset('admin/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
+                                            <img src="{{ asset('admin-assets/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
                                             <h6 class="text-md text-neutral-600">Congratulations </h6>
                                             <p class="text-neutral-400 text-sm mb-0">Well done! You have successfully completed.</p>
                                         </div>
@@ -692,7 +692,7 @@
 
                                     <fieldset class="wizard-fieldset">
                                         <div class="text-center mb-40">
-                                            <img src="{{ asset('admin/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
+                                            <img src="{{ asset('admin-assets/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
                                             <h6 class="text-md text-neutral-600">Congratulations </h6>
                                             <p class="text-neutral-400 text-sm mb-0">Well done! You have successfully completed.</p>
                                         </div>
@@ -875,7 +875,7 @@
 
                                     <fieldset class="wizard-fieldset">
                                         <div class="text-center mb-40">
-                                            <img src="{{ asset('admin/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
+                                            <img src="{{ asset('admin-assets/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
                                             <h6 class="text-md text-neutral-600">Congratulations </h6>
                                             <p class="text-neutral-400 text-sm mb-0">Well done! You have successfully completed.</p>
                                         </div>
@@ -1058,7 +1058,7 @@
 
                                     <fieldset class="wizard-fieldset">
                                         <div class="text-center mb-40">
-                                            <img src="{{ asset('admin/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
+                                            <img src="{{ asset('admin-assets/assets/images/gif/success-img3.gif') }}" alt="" class="gif-image mb-24">
                                             <h6 class="text-md text-neutral-600">Congratulations </h6>
                                             <p class="text-neutral-400 text-sm mb-0">Well done! You have successfully completed.</p>
                                         </div>

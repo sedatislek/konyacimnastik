@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="connectedSortable ps-24 pt-24 pe-24" id="sortable1">
                                     <div class="kanban-card bg-neutral-50 p-16 radius-8 mb-24" id="kanban-1">
                                         <div class="radius-8 mb-12 max-h-350-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/kanban/kanban-1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/kanban/kanban-1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <h6 class="kanban-title text-lg fw-semibold mb-8">Creating a new website</h6>
                                         <p class="kanban-desc text-secondary-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </div>
                                     <div class="kanban-card bg-neutral-50 p-16 radius-8 mb-24" id="kanban-2">
                                         <div class="radius-8 mb-12 max-h-350-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <h6 class="kanban-title text-lg fw-semibold mb-8">Creating a new website</h6>
                                         <p class="kanban-desc text-secondary-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
@@ -315,7 +315,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </div>
                                     <div class="kanban-card bg-neutral-50 p-16 radius-8 mb-24" id="kanban-4">
                                         <div class="radius-8 mb-12 max-h-350-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <h6 class="kanban-title text-lg fw-semibold mb-8">Creating a new website</h6>
                                         <p class="kanban-desc text-secondary-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </div>
                                     <div class="kanban-card bg-neutral-50 p-16 radius-8 mb-24" id="kanban-7">
                                         <div class="radius-8 mb-12 max-h-350-px overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/kanban/kanban-2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <h6 class="kanban-title text-lg fw-semibold mb-8">Creating a new website</h6>
                                         <p class="kanban-desc text-secondary-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
@@ -501,7 +501,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <div class="mb-3">
                                 <label for="taskImage" class="form-label fw-semibold text-primary-light text-sm mb-8">Attachments <span class="text-sm">(Jpg, Png format)</span> </label>
                                 <input type="file" class="form-control" id="taskImage">
-                                <img id="taskImagePreview" src="{{ asset('admin/assets/images/carousel/carousel-img1.png') }}" alt="Image Preview">
+                                <img id="taskImagePreview" src="{{ asset('admin-assets/assets/images/carousel/carousel-img1.png') }}" alt="Image Preview">
                             </div>
                         </form>
                     </div>

@@ -137,7 +137,7 @@
                                 <div class="tab-pane fade show active" id="pills-button-home" role="tabpanel" aria-labelledby="pills-button-home-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -149,7 +149,7 @@
                                 <div class="tab-pane fade" id="pills-button-details" role="tabpanel" aria-labelledby="pills-button-details-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -161,7 +161,7 @@
                                 <div class="tab-pane fade" id="pills-button-profile" role="tabpanel" aria-labelledby="pills-button-profile-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -173,7 +173,7 @@
                                 <div class="tab-pane fade" id="pills-button-settings" role="tabpanel" aria-labelledby="pills-button-settings-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -222,7 +222,7 @@
                                 <div class="tab-pane fade show active" id="pills-button-icon-home" role="tabpanel" aria-labelledby="pills-button-icon-home-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -234,7 +234,7 @@
                                 <div class="tab-pane fade" id="pills-button-icon-details" role="tabpanel" aria-labelledby="pills-button-icon-details-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -246,7 +246,7 @@
                                 <div class="tab-pane fade" id="pills-button-icon-profile" role="tabpanel" aria-labelledby="pills-button-icon-profile-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image2.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>
@@ -258,7 +258,7 @@
                                 <div class="tab-pane fade" id="pills-button-icon-settings" role="tabpanel" aria-labelledby="pills-button-icon-settings-tab" tabindex="0">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('admin/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
+                                            <img src="{{ asset('admin-assets/assets/images/tabs/tabs-image1.png') }}" class="radius-8" alt="">
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="text-lg mb-8">Title</h6>

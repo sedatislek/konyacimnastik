@@ -135,7 +135,7 @@
                                     <button type="button" class="uploaded-img__remove position-absolute top-0 end-0 z-1 text-2xxl line-height-1 me-8 mt-8 d-flex">
                                         <iconify-icon icon="radix-icons:cross-2" class="text-xl text-danger-600"></iconify-icon>
                                     </button>
-                                    <img id="uploaded-img__preview" class="w-100 h-100 object-fit-cover" src="{{ asset('admin/assets/images/user.png') }}" alt="image">
+                                    <img id="uploaded-img__preview" class="w-100 h-100 object-fit-cover" src="{{ asset('admin-assets/assets/images/user.png') }}" alt="image">
                                 </div>
 
                                 <label class="upload-file h-120-px w-120-px border input-form-light radius-8 overflow-hidden border-dashed bg-neutral-50 bg-hover-neutral-200 d-flex align-items-center flex-column justify-content-center gap-1" for="upload-file">

@@ -11,7 +11,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-24">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
@@ -37,7 +37,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-24">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
@@ -63,7 +63,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-24">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
@@ -89,7 +89,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-24">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <div class="d-flex align-items-center gap-6 justify-content-between flex-wrap mb-16">
@@ -117,7 +117,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-0">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-266-px radius-0 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="p-20">
                                 <h6 class="mb-16">
@@ -127,7 +127,7 @@
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -145,7 +145,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-0">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-266-px radius-0 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="p-20">
                                 <h6 class="mb-16">
@@ -155,7 +155,7 @@
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">Robiul Hasan</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -173,7 +173,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-0">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-266-px radius-0 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="p-20">
                                 <h6 class="mb-16">
@@ -183,7 +183,7 @@
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list3.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list3.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -201,7 +201,7 @@
                     <div class="card h-100 p-0 radius-12 overflow-hidden">
                         <div class="card-body p-0">
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-266-px radius-0 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="p-20">
                                 <h6 class="mb-16">
@@ -211,7 +211,7 @@
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list5.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list5.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -244,14 +244,14 @@
                                 </div>
                             </div>
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <p class="text-line-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -282,14 +282,14 @@
                                 </div>
                             </div>
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <p class="text-line-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -320,14 +320,14 @@
                                 </div>
                             </div>
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <p class="text-line-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>
@@ -358,14 +358,14 @@
                                 </div>
                             </div>
                             <a  href="{{ route('admin.blogDetails') }}" class="w-100 max-h-194-px radius-8 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="mt-20">
                                 <p class="text-line-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                 <span class="d-block border-bottom border-neutral-300 border-dashed my-20"></span>
                                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-6">
                                     <div class="d-flex align-items-center gap-8">
-                                        <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-circle object-fit-cover">
                                         <div class="d-flex flex-column">
                                             <h6 class="text-sm mb-0">John Doe</h6>
                                             <span class="text-xs text-neutral-500">1 day ago</span>

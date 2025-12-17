@@ -41,7 +41,7 @@
                     <div class="row gy-4">
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg1.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg1.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -62,7 +62,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Jacob Jones</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg2.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg2.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -106,7 +106,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Darrell Steward</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -129,7 +129,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg3.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg3.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -150,7 +150,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Jerome Bell</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -173,7 +173,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg4.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg4.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -194,7 +194,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Eleanor Pena</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -217,7 +217,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg5.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg5.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -238,7 +238,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img5.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img5.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Ralph Edwards</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -261,7 +261,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg6.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg6.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -282,7 +282,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img6.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img6.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Annette Black</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -305,7 +305,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg7.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg7.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -326,7 +326,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img7.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img7.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Robert Fox</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -349,7 +349,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg8.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg8.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -370,7 +370,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img8.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img8.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Albert Flores</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -393,7 +393,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg9.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg9.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -414,7 +414,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img9.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img9.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Dianne Russell</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -437,7 +437,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg10.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg10.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -458,7 +458,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img10.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img10.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Esther Howard</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -481,7 +481,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg11.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg11.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -502,7 +502,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img11.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img11.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Marvin McKinney</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 
@@ -525,7 +525,7 @@
                         </div>
                         <div class="col-xxl-3 col-md-6 user-grid-card   ">
                             <div class="position-relative border radius-16 overflow-hidden">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg12.png') }}" alt="" class="w-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg12.png') }}" alt="" class="w-100 object-fit-cover">
 
                                 <div class="dropdown position-absolute top-0 end-0 me-16 mt-16">
                                     <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="bg-white-gradient-light w-32-px h-32-px radius-8 border border-light-white d-flex justify-content-center align-items-center text-white">
@@ -546,7 +546,7 @@
                                 </div>
 
                                 <div class="ps-16 pb-16 pe-16 text-center mt--50">
-                                    <img src="{{ asset('admin/assets/images/user-grid/user-grid-img12.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img12.png') }}" alt="" class="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover">
                                     <h6 class="text-lg mb-0 mt-4">Guy Hawkins</h6>
                                     <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
 

@@ -88,7 +88,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                                 <div class="d-flex align-items-center gap-16">
                                     <div class="img overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                                     </div>
                                     <div class="info flex-grow-1">
                                         <h6 class="text-lg mb-4">Adam Milner</h6>
@@ -102,7 +102,7 @@
                             <!-- WowDash generated Text Start -->
                             <div class="d-flex align-items-start gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                                 <div class="img overflow-hidden flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                                    <img src="{{ asset('admin-assets/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                                 </div>
                                 <div class="info flex-grow-1">
                                     <h6 class="text-lg mb-16 mt-8">WowDash</h6>
@@ -155,7 +155,7 @@
                             <div class="d-flex align-items-start justify-content-between gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                                 <div class="d-flex align-items-center gap-16">
                                     <div class="img overflow-hidden flex-shrink-0">
-                                        <img src="{{ asset('admin/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                                     </div>
                                     <div class="info flex-grow-1">
                                         <h6 class="text-lg mb-4">Adam Milner</h6>

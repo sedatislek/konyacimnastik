@@ -14,7 +14,7 @@
                                 <div class="card-header bg-neutral-100 border-bottom py-16 px-24 d-flex align-items-center flex-wrap gap-3 justify-content-between">
                                     <div class="d-flex align-items-center gap-10">
                                         <span class="w-36-px h-36-px bg-base rounded-circle d-flex justify-content-center align-items-center">
-                                            <img src="{{ asset('admin/assets/images/payment/payment-gateway1.png') }}" alt="" class="">
+                                            <img src="{{ asset('admin-assets/assets/images/payment/payment-gateway1.png') }}" alt="" class="">
                                         </span>
                                         <span class="text-lg fw-semibold text-primary-light">Paypal</span>
                                     </div>
@@ -77,7 +77,7 @@
                                 <div class="card-header bg-neutral-100 border-bottom py-16 px-24 d-flex align-items-center flex-wrap gap-3 justify-content-between">
                                     <div class="d-flex align-items-center gap-10">
                                         <span class="w-36-px h-36-px bg-base rounded-circle d-flex justify-content-center align-items-center">
-                                            <img src="{{ asset('admin/assets/images/payment/payment-gateway2.png') }}" alt="" class="">
+                                            <img src="{{ asset('admin-assets/assets/images/payment/payment-gateway2.png') }}" alt="" class="">
                                         </span>
                                         <span class="text-lg fw-semibold text-primary-light">RazorPay</span>
                                     </div>

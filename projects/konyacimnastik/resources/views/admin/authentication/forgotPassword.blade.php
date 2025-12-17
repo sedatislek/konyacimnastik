@@ -9,7 +9,7 @@
     <section class="auth forgot-password-page bg-base d-flex flex-wrap">
         <div class="auth-left d-lg-block d-none">
             <div class="d-flex align-items-center flex-column h-100 justify-content-center">
-                <img src="{{ asset('admin/assets/images/auth/forgot-pass-img.png') }}" alt="">
+                <img src="{{ asset('admin-assets/assets/images/auth/forgot-pass-img.png') }}" alt="">
             </div>
         </div>
         <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
@@ -45,7 +45,7 @@
             <div class="modal-content radius-16 bg-base">
                 <div class="modal-body p-40 text-center">
                     <div class="mb-32">
-                        <img src="{{ asset('admin/assets/images/auth/envelop-icon.png') }}" alt="">
+                        <img src="{{ asset('admin-assets/assets/images/auth/envelop-icon.png') }}" alt="">
                     </div>
                     <h6 class="mb-12">Verify your Email</h6>
                     <p class="text-secondary-light text-sm mb-0">Thank you, check your email for instructions to reset your password</p>

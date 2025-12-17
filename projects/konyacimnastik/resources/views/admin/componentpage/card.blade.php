@@ -26,7 +26,7 @@
                 <div class="row gy-4">
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card h-100 radius-12">
-                            <img src="{{ asset('admin/assets/images/card-component/card-img1.png') }}" class="card-img-top" alt="">
+                            <img src="{{ asset('admin-assets/assets/images/card-component/card-img1.png') }}" class="card-img-top" alt="">
                             <div class="card-body p-16">
                                 <h5 class="card-title text-lg text-primary-light
                          mb-6">This is Card title</h5>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card h-100 radius-12">
-                            <img src="{{ asset('admin/assets/images/card-component/card-img2.png') }}" class="card-img-top" alt="">
+                            <img src="{{ asset('admin-assets/assets/images/card-component/card-img2.png') }}" class="card-img-top" alt="">
                             <div class="card-body p-16 text-center">
                                 <h5 class="card-title text-lg text-primary-light
                          mb-6">This is Card title</h5>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card h-100 radius-12">
-                            <img src="{{ asset('admin/assets/images/card-component/card-img3.png') }}" class="card-img-top" alt="">
+                            <img src="{{ asset('admin-assets/assets/images/card-component/card-img3.png') }}" class="card-img-top" alt="">
                             <div class="card-body p-16 text-end">
                                 <h5 class="card-title text-lg text-primary-light
                          mb-6">This is Card title</h5>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card h-100 radius-12">
-                            <img src="{{ asset('admin/assets/images/card-component/card-img4.png') }}" class="card-img-top" alt="">
+                            <img src="{{ asset('admin-assets/assets/images/card-component/card-img4.png') }}" class="card-img-top" alt="">
                             <div class="card-body p-16 text-center">
                                 <h5 class="card-title text-lg text-primary-light
                          mb-6">This is Card title</h5>
@@ -150,7 +150,7 @@
                     <div class="col-xxl-4 col-sm-6">
                         <div class="card h-100 radius-12 p-0 overflow-hidden position-relative">
                             <div class="card-body p-0 gradient-overlay bottom-0 start-0">
-                                <img src="{{ asset('admin/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
                                 <div class="position-absolute start-0 bottom-0 p-24 z-1">
                                     <h5 class="card-title text-white text-primary-light
                              text-lg mb-6">This is Card title</h5>
@@ -165,7 +165,7 @@
                     <div class="col-xxl-4 col-sm-6">
                         <div class="card h-100 radius-12 p-0 overflow-hidden position-relative">
                             <div class="card-body p-0 gradient-overlay top-0 start-0">
-                                <img src="{{ asset('admin/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
                                 <div class="position-absolute start-0 top-0 p-24 z-1 text-center">
                                     <h5 class="card-title text-white text-primary-light
                              text-lg mb-6">This is Card title</h5>
@@ -180,7 +180,7 @@
                     <div class="col-xxl-4 col-sm-6">
                         <div class="card h-100 radius-12 p-0 overflow-hidden position-relative">
                             <div class="card-body p-0 gradient-overlay bottom-0 start-0">
-                                <img src="{{ asset('admin/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/card-overlay-img1.png') }}" alt="" class="w-100 h-100">
                                 <div class="position-absolute start-0 bottom-0 p-24 z-1 text-end">
                                     <h5 class="card-title text-white text-primary-light
                              text-lg mb-6">This is Card title</h5>
@@ -253,7 +253,7 @@
                     <div class="col-xl-6">
                         <div class="card radius-12 overflow-hidden h-100 d-flex align-items-center flex-nowrap flex-row">
                             <div class="d-flex flex-shrink-0 w-170-px h-100">
-                                <img src="{{ asset('admin/assets/images/card-component/horizontal-card-img1.png') }}" class="h-100 w-100 object-fit-cover" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/horizontal-card-img1.png') }}" class="h-100 w-100 object-fit-cover" alt="">
                             </div>
                             <div class="card-body p-16 flex-grow-1">
                                 <h5 class="card-title text-lg text-primary-light mb-6">This is Card title</h5>
@@ -267,7 +267,7 @@
                     <div class="col-xl-6">
                         <div class="card radius-12 overflow-hidden h-100 d-flex align-items-center flex-nowrap flex-row flex-row-reverse">
                             <div class="d-flex flex-shrink-0 w-170-px h-100">
-                                <img src="{{ asset('admin/assets/images/card-component/horizontal-card-img2.png') }}" class="h-100 w-100 object-fit-cover" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/horizontal-card-img2.png') }}" class="h-100 w-100 object-fit-cover" alt="">
                             </div>
                             <div class="card-body p-16 flex-grow-1">
                                 <h5 class="card-title text-lg text-primary-light mb-6">This is Card title</h5>
@@ -281,7 +281,7 @@
                     <div class="col-xl-6">
                         <div class="card radius-12 overflow-hidden h-100 d-flex align-items-center flex-nowrap flex-row">
                             <div class="d-flex flex-shrink-0 w-170-px h-100">
-                                <img src="{{ asset('admin/assets/images/card-component/horizontal-card-img3.png') }}" class="h-100 w-100 object-fit-cover" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/horizontal-card-img3.png') }}" class="h-100 w-100 object-fit-cover" alt="">
                             </div>
                             <div class="card-body p-16 flex-grow-1">
                                 <h5 class="card-title text-lg text-primary-light mb-6">This is Card title</h5>
@@ -295,7 +295,7 @@
                     <div class="col-xl-6">
                         <div class="card radius-12 overflow-hidden h-100 d-flex align-items-center flex-nowrap flex-row flex-row-reverse">
                             <div class="d-flex flex-shrink-0 w-170-px h-100">
-                                <img src="{{ asset('admin/assets/images/card-component/horizontal-card-img4.png') }}" class="h-100 w-100 object-fit-cover" alt="">
+                                <img src="{{ asset('admin-assets/assets/images/card-component/horizontal-card-img4.png') }}" class="h-100 w-100 object-fit-cover" alt="">
                             </div>
                             <div class="card-body p-16 flex-grow-1">
                                 <h5 class="card-title text-lg text-primary-light mb-6">This is Card title</h5>

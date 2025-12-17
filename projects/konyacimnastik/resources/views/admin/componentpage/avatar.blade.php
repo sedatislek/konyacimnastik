@@ -14,24 +14,24 @@
                 </div>
                 <div class="card-body p-24">
                     <div class="d-flex align-items-center flex-wrap gap-3">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-24-px h-24-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-32-px h-32-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-40-px h-40-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-44-px h-44-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-56-px h-56-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-64-px h-64-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-72-px h-72-px rounded-circle object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" class="w-80-px h-80-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-24-px h-24-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-32-px h-32-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-40-px h-40-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-44-px h-44-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-56-px h-56-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-64-px h-64-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-72-px h-72-px rounded-circle object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" class="w-80-px h-80-px rounded-circle object-fit-cover" alt="Avatar">
                     </div>
                     <div class="d-flex align-items-center flex-wrap gap-3 mt-24">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-24-px h-24-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-32-px h-32-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-40-px h-40-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-44-px h-44-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-56-px h-56-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-64-px h-64-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-72-px h-72-px radius-8 object-fit-cover" alt="Avatar">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" class="w-80-px h-80-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-24-px h-24-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-32-px h-32-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-40-px h-40-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-44-px h-44-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-56-px h-56-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-64-px h-64-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-72-px h-72-px radius-8 object-fit-cover" alt="Avatar">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" class="w-80-px h-80-px radius-8 object-fit-cover" alt="Avatar">
                     </div>
                 </div>
             </div>
@@ -68,9 +68,9 @@
                 </div>
                 <div class="card-body p-24">
                     <div class="d-flex align-items-center flex-wrap justify-content-between gap-3">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-shape1.png') }}" alt="" class="w-120-px h-120-px radius-8 object-fit-cover">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-shape2.png') }}" alt="" class="w-120-px h-120-px rounded-circle object-fit-cover">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-shape3.png') }}" alt="" class="w-auto h-120-px  object-fit-cover">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-shape1.png') }}" alt="" class="w-120-px h-120-px radius-8 object-fit-cover">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-shape2.png') }}" alt="" class="w-120-px h-120-px rounded-circle object-fit-cover">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-shape3.png') }}" alt="" class="w-auto h-120-px  object-fit-cover">
                     </div>
                 </div>
             </div>
@@ -83,19 +83,19 @@
                 <div class="card-body p-24">
                     <div class="d-flex align-items-center flex-wrap gap-3">
                         <div class="position-relative">
-                            <img src="{{ asset('admin/assets/images/avatar/status-avatar.png') }}" class="w-24-px h-24-px rounded-circle object-fit-cover" alt="Avatar">
+                            <img src="{{ asset('admin-assets/assets/images/avatar/status-avatar.png') }}" class="w-24-px h-24-px rounded-circle object-fit-cover" alt="Avatar">
                             <span class="w-8-px h-8-px bg-primary-600 border br-white rounded-circle position-absolute end-0 bottom-3px"></span>
                         </div>
                         <div class="position-relative">
-                            <img src="{{ asset('admin/assets/images/avatar/status-avatar.png') }}" class="w-32-px h-32-px rounded-circle object-fit-cover" alt="Avatar">
+                            <img src="{{ asset('admin-assets/assets/images/avatar/status-avatar.png') }}" class="w-32-px h-32-px rounded-circle object-fit-cover" alt="Avatar">
                             <span class="w-8-px h-8-px bg-primary-600 border br-white rounded-circle position-absolute end-0 bottom-3px"></span>
                         </div>
                         <div class="position-relative">
-                            <img src="{{ asset('admin/assets/images/avatar/status-avatar.png') }}" class="w-40-px h-40-px rounded-circle object-fit-cover" alt="Avatar">
+                            <img src="{{ asset('admin-assets/assets/images/avatar/status-avatar.png') }}" class="w-40-px h-40-px rounded-circle object-fit-cover" alt="Avatar">
                             <span class="w-8-px h-8-px bg-primary-600 border br-white rounded-circle position-absolute end-0 bottom-3px"></span>
                         </div>
                         <div class="position-relative">
-                            <img src="{{ asset('admin/assets/images/avatar/status-avatar.png') }}" class="w-44-px h-44-px rounded-circle object-fit-cover" alt="Avatar">
+                            <img src="{{ asset('admin-assets/assets/images/avatar/status-avatar.png') }}" class="w-44-px h-44-px rounded-circle object-fit-cover" alt="Avatar">
                             <span class="w-8-px h-8-px bg-primary-600 border br-white rounded-circle position-absolute end-0 bottom-3px"></span>
                         </div>
                     </div>
@@ -127,13 +127,13 @@
                 </div>
                 <div class="card-body p-24">
                     <div class="d-flex align-items-center flex-wrap">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group1.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group2.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group3.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group4.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group5.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group1.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group2.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group3.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group4.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group5.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px">
                         <span class="w-24-px h-24-px rounded-circle object-fit-cover position-relative ms--10px border bg-neutral-100 text-secondary-light text-xs d-inline-flex align-items-center justify-content-center">
                             +5
                         </span>
@@ -142,13 +142,13 @@
                         </button>
                     </div>
                     <div class="d-flex align-items-center flex-wrap mt-24">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group3.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group4.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group5.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
-                        <img src="{{ asset('admin/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group3.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group4.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group5.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
+                        <img src="{{ asset('admin-assets/assets/images/avatar/avatar-group6.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px">
                         <span class="w-32-px h-32-px rounded-circle object-fit-cover position-relative ms--10px border bg-neutral-100 text-secondary-light text-xs d-inline-flex align-items-center justify-content-center">
                             +5
                         </span>
@@ -168,7 +168,7 @@
                     <div class="row gy-3">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
                                 <div class="flex-grow-1 d-inline-flex flex-column">
                                     <h6 class="text-sm mb-0">Will mart</h6>
                                     <span class="text-xs text-secondary-light">random@gmail.com</span>
@@ -177,7 +177,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="{{ asset('admin/assets/images/avatar/avatar1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/avatar/avatar1.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
                                 <div class="flex-grow-1 d-inline-flex flex-column">
                                     <h6 class="text-sm mb-0">Will mart</h6>
                                     <span class="text-xs text-secondary-light">random@gmail.com</span>
@@ -186,7 +186,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
                                 <div class="flex-grow-1 d-inline-flex flex-column">
                                     <h6 class="text-sm mb-0">Sangeeta</h6>
                                     <span class="text-xs text-secondary-light">random@gmail.com</span>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center gap-2">
-                                <img src="{{ asset('admin/assets/images/avatar/avatar2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
+                                <img src="{{ asset('admin-assets/assets/images/avatar/avatar2.png') }}" alt="" class="w-32-px h-32-px rounded-circle object-fit-cover flex-shrink-0">
                                 <div class="flex-grow-1 d-inline-flex flex-column">
                                     <h6 class="text-sm mb-0">Sangeeta</h6>
                                     <span class="text-xs text-secondary-light">random@gmail.com</span>

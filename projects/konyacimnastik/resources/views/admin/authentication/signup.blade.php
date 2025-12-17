@@ -9,14 +9,14 @@
     <section class="auth bg-base d-flex flex-wrap">
         <div class="auth-left d-lg-block d-none">
             <div class="d-flex align-items-center flex-column h-100 justify-content-center">
-                <img src="{{ asset('admin/assets/images/auth/auth-img.png') }}" alt="">
+                <img src="{{ asset('admin-assets/assets/images/auth/auth-img.png') }}" alt="">
             </div>
         </div>
         <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
             <div class="max-w-464-px mx-auto w-100">
                 <div>
                     <a href="{{ route('admin.index') }}" class="mb-40 max-w-290-px">
-                        <img src="{{ asset('admin/assets/images/logo.png') }}" alt="">
+                        <img src="{{ asset('admin-assets/assets/images/logo.png') }}" alt="">
                     </a>
                     <h4 class="mb-12">Sign Up to your Account</h4>
                     <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>

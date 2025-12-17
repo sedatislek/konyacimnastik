@@ -172,7 +172,7 @@
                         <div class="card-body p-0">
                             <div class="py-16 px-24 border-bottom">
                                 <div class="d-flex align-items-start gap-3">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-pill">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list1.png') }}" alt="" class="w-40-px h-40-px rounded-pill">
                                     <div class="">
                                         <div class="d-flex align-items-center flex-wrap gap-2">
                                             <h6 class="mb-0 text-lg">Kathryn Murphy</h6>
@@ -188,7 +188,7 @@
                             </div>
                             <div class="py-16 px-24 border-bottom">
                                 <div class="d-flex align-items-start gap-3">
-                                    <img src="{{ asset('admin/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-pill">
+                                    <img src="{{ asset('admin-assets/assets/images/user-list/user-list2.png') }}" alt="" class="w-40-px h-40-px rounded-pill">
                                     <div class="">
                                         <div class="d-flex align-items-center flex-wrap gap-2">
                                             <h6 class="mb-0 text-lg">Subrata Sen</h6>

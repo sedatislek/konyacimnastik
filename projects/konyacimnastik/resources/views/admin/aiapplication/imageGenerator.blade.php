@@ -79,7 +79,7 @@
                     <div class="d-flex align-items-start justify-content-between gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                         <div class="d-flex align-items-center gap-16">
                             <div class="img overflow-hidden flex-shrink-0">
-                                <img src="{{ asset('admin/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                             </div>
                             <div class="info">
                                 <h6 class="text-lg mb-4">Adam Milner</h6>
@@ -93,7 +93,7 @@
                     <!-- WowDash generated Text Start -->
                     <div class="d-flex align-items-start gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                         <div class="img overflow-hidden flex-shrink-0">
-                            <img src="{{ asset('admin/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                            <img src="{{ asset('admin-assets/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                         </div>
                         <div class="info flex-grow-1">
                             <h6 class="text-lg mb-16 mt-8">WowDash</h6>
@@ -101,7 +101,7 @@
                             <div class="row g-3">
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="generated-image-item radius-8 overflow-hidden position-relative">
-                                        <img src="{{ asset('admin/assets/images/chatgpt/image-generator1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chatgpt/image-generator1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         <div class="form-check style-check d-flex align-items-center position-absolute top-0 start-0 ms-8 mt-8">
                                             <input class="form-check-input radius-4 border border-neutral-400" id="image1" type="checkbox" name="checkbox">
                                         </div>
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="generated-image-item radius-8 overflow-hidden position-relative">
-                                        <img src="{{ asset('admin/assets/images/chatgpt/image-generator2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chatgpt/image-generator2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         <div class="form-check style-check d-flex align-items-center position-absolute top-0 start-0 ms-8 mt-8">
                                             <input class="form-check-input radius-4 border border-neutral-400" id="image2" type="checkbox" name="checkbox">
                                         </div>
@@ -119,7 +119,7 @@
                                 </div>
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="generated-image-item radius-8 overflow-hidden position-relative">
-                                        <img src="{{ asset('admin/assets/images/chatgpt/image-generator3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chatgpt/image-generator3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         <div class="form-check style-check d-flex align-items-center position-absolute top-0 start-0 ms-8 mt-8">
                                             <input class="form-check-input radius-4 border border-neutral-400" id="image3" type="checkbox" name="checkbox">
                                         </div>
@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="generated-image-item radius-8 overflow-hidden position-relative">
-                                        <img src="{{ asset('admin/assets/images/chatgpt/image-generator4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chatgpt/image-generator4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         <div class="form-check style-check d-flex align-items-center position-absolute top-0 start-0 ms-8 mt-8">
                                             <input class="form-check-input radius-4 border border-neutral-400" id="image4" type="checkbox" name="checkbox">
                                         </div>
@@ -162,7 +162,7 @@
                     <div class="d-flex align-items-start justify-content-between gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                         <div class="d-flex align-items-center gap-16">
                             <div class="img overflow-hidden flex-shrink-0">
-                                <img src="{{ asset('admin/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/chat/1.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                             </div>
                             <div class="info">
                                 <h6 class="text-lg mb-4">Adam Milner</h6>
@@ -176,7 +176,7 @@
                     <!-- WowDash generated Text Start -->
                     <div class="d-flex align-items-start gap-16 border-bottom border-neutral-200 pb-16 mb-16">
                         <div class="img overflow-hidden flex-shrink-0">
-                            <img src="{{ asset('admin/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
+                            <img src="{{ asset('admin-assets/assets/images/wow-dash-favicon.png') }}" alt="image" class="w-44-px h-44-px rounded-circle object-fit-cover">
                         </div>
                         <div class="info flex-grow-1">
                             <h6 class="text-lg mb-16 mt-8">WowDash</h6>
@@ -184,7 +184,7 @@
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <div class="generated-image-item radius-8 overflow-hidden position-relative">
-                                        <img src="{{ asset('admin/assets/images/chatgpt/image-generator5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('admin-assets/assets/images/chatgpt/image-generator5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         <button type="button" class="download-btn position-absolute top-0 end-0 me-8 mt-8 w-50-px h-50-px bg-primary-600 text-white d-flex justify-content-center align-items-center radius-6 text-2xl bg-hover-primary-700">
                                             <i class="ri-download-2-fill"></i>
                                         </button>

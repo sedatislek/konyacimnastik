@@ -482,7 +482,7 @@
                         <div class="d-flex flex-column gap-24">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-primary-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/ticket1.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/ticket1.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-bold">172</h6>
@@ -491,7 +491,7 @@
                             </div>
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-warning-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/ticket2.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/ticket2.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-bold">172</h6>
@@ -500,7 +500,7 @@
                             </div>
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-lilac-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/ticket3.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/ticket3.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-bold">172</h6>
@@ -552,7 +552,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-success-200 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/payment1.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/payment1.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">Wallet</h6>
@@ -564,7 +564,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-info-200 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/payment2.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/payment2.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">PayPal</h6>
@@ -576,7 +576,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-24">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-warning-200 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/payment3.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/payment3.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">Credit Card </h6>
@@ -588,7 +588,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3 mb-0">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-lilac-200 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/payment4.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/payment4.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-normal">Bank</h6>
@@ -624,7 +624,7 @@
                                 <div class="max-h-266-px overflow-y-auto scroll-sm pe-16">
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">USA</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -642,7 +642,7 @@
 
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">Japan</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -660,7 +660,7 @@
 
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">France</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -678,7 +678,7 @@
 
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">Germany</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -696,7 +696,7 @@
 
                                     <div class="d-flex align-items-center justify-content-between gap-3 mb-12 pb-2">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">South Korea</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -713,7 +713,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3">
                                         <div class="d-flex align-items-center w-100">
-                                            <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
+                                            <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-sm mb-0">USA</h6>
                                                 <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -755,7 +755,7 @@
                             <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-end">
                                 <div class="d-flex flex-column align-items-center p-24 pt-16 rounded-top-4 bg-tb-warning" style="min-height: 50%;">
                                     <span class="w-40-px h-40-px d-flex flex-shrink-0 justify-content-center align-items-center bg-warning-600 rounded-circle mb-12">
-                                        <img src="{{ asset('admin/assets/images/home-nine/source-icon1.png') }}" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/home-nine/source-icon1.png') }}" alt="">
                                     </span>
                                     <span class="text-secondary-light">TikTok</span>
                                     <h6 class="mb-0">50%</h6>
@@ -764,7 +764,7 @@
                             <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-end">
                                 <div class="d-flex flex-column align-items-center p-24 pt-16 rounded-top-4 bg-tb-lilac" style="min-height: 66%;">
                                     <span class="w-40-px h-40-px d-flex flex-shrink-0 justify-content-center align-items-center bg-lilac-600 rounded-circle mb-12">
-                                        <img src="{{ asset('admin/assets/images/home-nine/source-icon2.png') }}" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/home-nine/source-icon2.png') }}" alt="">
                                     </span>
                                     <span class="text-secondary-light">Instagram</span>
                                     <h6 class="mb-0">66%</h6>
@@ -773,7 +773,7 @@
                             <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-end">
                                 <div class="d-flex flex-column align-items-center p-24 pt-16 rounded-top-4 bg-tb-primary" style="min-height: 82%;">
                                     <span class="w-40-px h-40-px d-flex flex-shrink-0 justify-content-center align-items-center bg-primary-600 rounded-circle mb-12">
-                                        <img src="{{ asset('admin/assets/images/home-nine/source-icon3.png') }}" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/home-nine/source-icon3.png') }}" alt="">
                                     </span>
                                     <span class="text-secondary-light">Facebook</span>
                                     <h6 class="mb-0">82%</h6>
@@ -782,7 +782,7 @@
                             <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-end">
                                 <div class="d-flex flex-column align-items-center p-24 pt-16 rounded-top-4 bg-tb-success" style="min-height: 96%;">
                                     <span class="w-40-px h-40-px d-flex flex-shrink-0 justify-content-center align-items-center bg-success-600 rounded-circle mb-12">
-                                        <img src="{{ asset('admin/assets/images/home-nine/source-icon4.png') }}" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/home-nine/source-icon4.png') }}" alt="">
                                     </span>
                                     <span class="text-secondary-light">Website</span>
                                     <h6 class="mb-0">96%</h6>
@@ -805,7 +805,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-lilac-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials1.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials1.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Email</h6>
@@ -819,7 +819,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-warning-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials2.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials2.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Clicked</h6>
@@ -833,7 +833,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-info-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials3.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials3.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Subscribe</h6>
@@ -847,7 +847,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-success-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials4.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials4.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Complaints </h6>
@@ -861,7 +861,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-danger-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials5.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials5.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Unsubscribe</h6>
@@ -875,7 +875,7 @@
                         <div class="d-flex align-items-center justify-content-between gap-3">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="w-40-px h-40-px rounded-circle d-flex justify-content-center align-items-center bg-info-100 flex-shrink-0">
-                                    <img src="{{ asset('admin/assets/images/home-nine/socials3.png') }}" alt="" class="">
+                                    <img src="{{ asset('admin-assets/assets/images/home-nine/socials3.png') }}" alt="" class="">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-0 fw-semibold">Subscribe</h6>
@@ -916,7 +916,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Kristin Watson</h6>
                                                 <span class="text-sm text-secondary-light fw-medium">ulfaha@mail.ru</span>
@@ -931,7 +931,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Theresa Webb</h6>
                                                 <span class="text-sm text-secondary-light fw-medium">joie@gmail.com</span>
@@ -946,7 +946,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Brooklyn Simmons</h6>
                                                 <span class="text-sm text-secondary-light fw-medium">warn@mail.ru</span>
@@ -961,7 +961,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Robert Fox</h6>
                                                 <span class="text-sm text-secondary-light fw-medium">fellora@mail.ru</span>
@@ -976,7 +976,7 @@
                                 <tr>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/user-grid/user-grid-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <div class="flex-grow-1">
                                                 <h6 class="text-md mb-0">Jane Cooper</h6>
                                                 <span class="text-sm text-secondary-light fw-medium">zitka@mail.ru</span>

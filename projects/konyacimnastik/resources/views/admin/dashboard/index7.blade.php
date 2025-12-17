@@ -389,10 +389,10 @@
             <div class="row gy-4">
                 <div class="col-12">
                     <div class="nft-promo-card card radius-12 overflow-hidden position-relative z-1">
-                        <img src="{{ asset('admin/assets/images/nft/nft-gradient-bg.png') }}" class="position-absolute start-0 top-0 w-100 h-100 z-n1" alt="">
+                        <img src="{{ asset('admin-assets/assets/images/nft/nft-gradient-bg.png') }}" class="position-absolute start-0 top-0 w-100 h-100 z-n1" alt="">
                         <div class="nft-promo-card__inner d-flex align-items-center">
                             <div class="nft-promo-card__thumb w-100">
-                                <img src="{{ asset('admin/assets/images/nft/nf-card-img.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/nft/nf-card-img.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </div>
                             <div class="flex-grow-1">
                                 <h4 class="mb-16 text-white">Discover The Largest NFTs Marketplace</h4>
@@ -519,12 +519,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">Fantastic Alien</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -543,12 +543,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -567,12 +567,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -591,12 +591,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -619,12 +619,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">Fantastic Alien</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -643,12 +643,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -667,12 +667,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -691,12 +691,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -719,12 +719,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">Fantastic Alien</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -743,12 +743,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -767,12 +767,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -791,12 +791,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -819,12 +819,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">Fantastic Alien</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -843,12 +843,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -867,12 +867,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -891,12 +891,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -919,12 +919,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">Fantastic Alien</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img1.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -943,12 +943,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img2.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -967,12 +967,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img3.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -991,12 +991,12 @@
                                 <div class="col-xxl-3 col-sm-6 col-xs-6">
                                     <div class="nft-card bg-base radius-16 overflow-hidden">
                                         <div class="radius-16 overflow-hidden">
-                                            <img src="{{ asset('admin/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ asset('admin-assets/assets/images/nft/nft-img4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </div>
                                         <div class="p-10">
                                             <h6 class="text-md fw-bold text-primary-light">New Figures</h6>
                                             <div class="d-flex align-items-center gap-8">
-                                                <img src="{{ asset('admin/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/nft-user-img4.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                 <span class="text-sm text-secondary-light fw-medium">Watson Kristin</span>
                                             </div>
                                             <div class="mt-10 d-flex align-items-center justify-content-between gap-8 flex-wrap">
@@ -1048,7 +1048,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Spanky & Friends</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1059,7 +1059,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1077,7 +1077,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Nike Air Shoe</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1088,7 +1088,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1106,7 +1106,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Woman Dresses</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1117,7 +1117,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1135,7 +1135,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Smart Watch</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1146,7 +1146,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1164,7 +1164,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Hoodie Rose</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1175,7 +1175,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1193,7 +1193,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img6.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img6.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Hoodie Rose</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1204,7 +1204,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img6.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img6.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1222,7 +1222,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-items-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold">Hoodie Rose</h6>
                                                             <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1233,7 +1233,7 @@
                                                 <td>3.053 ETH</td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="{{ asset('admin/assets/images/nft/nft-offer-img7.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                                        <img src="{{ asset('admin-assets/assets/images/nft/nft-offer-img7.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                                         <div class="flex-grow-1">
                                                             <h6 class="text-md mb-0 fw-semibold text-primary-light">1.44.00 ETH</h6>
                                                         </div>
@@ -1322,7 +1322,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/nft-items-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/nft-items-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Theresa Webb</h6>
                                         <span class="text-sm text-secondary-light fw-normal">Owned by ABC</span>
@@ -1335,12 +1335,12 @@
                                     <div class="col-sm-6 col-xs-6">
                                         <div class="nft-card bg-base radius-16 overflow-hidden shadow-4">
                                             <div class="radius-16 overflow-hidden">
-                                                <img src="{{ asset('admin/assets/images/nft/featured-creator1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/featured-creator1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                             </div>
                                             <div class="p-12">
                                                 <h6 class="text-md fw-bold text-primary-light mb-12">New Figures</h6>
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/nft/bitcoin.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                    <img src="{{ asset('admin-assets/assets/images/nft/bitcoin.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                     <span class="text-sm text-secondary-light fw-medium">0.10 BTC</span>
                                                 </div>
                                             </div>
@@ -1349,12 +1349,12 @@
                                     <div class="col-sm-6 col-xs-6">
                                         <div class="nft-card bg-base radius-16 overflow-hidden shadow-4">
                                             <div class="radius-16 overflow-hidden">
-                                                <img src="{{ asset('admin/assets/images/nft/featured-creator2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
+                                                <img src="{{ asset('admin-assets/assets/images/nft/featured-creator2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                             </div>
                                             <div class="p-12">
                                                 <h6 class="text-md fw-bold text-primary-light mb-12">Abstrac Girl</h6>
                                                 <div class="d-flex align-items-center gap-8">
-                                                    <img src="{{ asset('admin/assets/images/nft/bitcoin.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
+                                                    <img src="{{ asset('admin-assets/assets/images/nft/bitcoin.png') }}" class="w-28-px h-28-px rounded-circle object-fit-cover" alt="">
                                                     <span class="text-sm text-secondary-light fw-medium">0.10 BTC</span>
                                                 </div>
                                             </div>
@@ -1377,7 +1377,7 @@
                         <div class="card-body pt-24">
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap mb-32">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/creator-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/creator-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Theresa Webb</h6>
                                         <span class="text-sm text-secondary-light fw-normal">@wishon</span>
@@ -1387,7 +1387,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap mb-32">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/creator-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/creator-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Arlene McCoy</h6>
                                         <span class="text-sm text-secondary-light fw-normal">@nemccoy</span>
@@ -1397,7 +1397,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap mb-32">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/creator-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/creator-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Kathryn Murphy</h6>
                                         <span class="text-sm text-secondary-light fw-normal">@kathrynmur</span>
@@ -1407,7 +1407,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap mb-32">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/creator-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/creator-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Marvin McKinney</h6>
                                         <span class="text-sm text-secondary-light fw-normal">@marvinckin</span>
@@ -1417,7 +1417,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-between gap-8 flex-wrap mb-0">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('admin/assets/images/nft/creator-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
+                                    <img src="{{ asset('admin-assets/assets/images/nft/creator-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12">
                                     <div class="flex-grow-1">
                                         <h6 class="text-md mb-0 fw-semibold">Dianne Russell</h6>
                                         <span class="text-sm text-secondary-light fw-normal">@dinne_r</span>

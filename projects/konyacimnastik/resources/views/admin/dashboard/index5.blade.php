@@ -218,7 +218,7 @@
 
                                 <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                                     <div class="d-flex align-items-center w-100">
-                                        <img src="{{ asset('admin/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                        <img src="{{ asset('admin-assets/assets/images/flags/flag1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                         <div class="flex-grow-1">
                                             <h6 class="text-sm mb-0">USA</h6>
                                             <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -236,7 +236,7 @@
 
                                 <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                                     <div class="d-flex align-items-center w-100">
-                                        <img src="{{ asset('admin/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                        <img src="{{ asset('admin-assets/assets/images/flags/flag2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                         <div class="flex-grow-1">
                                             <h6 class="text-sm mb-0">Japan</h6>
                                             <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -254,7 +254,7 @@
 
                                 <div class="d-flex align-items-center justify-content-between gap-3 mb-3 pb-2">
                                     <div class="d-flex align-items-center w-100">
-                                        <img src="{{ asset('admin/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                        <img src="{{ asset('admin-assets/assets/images/flags/flag3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                         <div class="flex-grow-1">
                                             <h6 class="text-sm mb-0">France</h6>
                                             <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -272,7 +272,7 @@
 
                                 <div class="d-flex align-items-center justify-content-between gap-3">
                                     <div class="d-flex align-items-center w-100">
-                                        <img src="{{ asset('admin/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                        <img src="{{ asset('admin-assets/assets/images/flags/flag4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                         <div class="flex-grow-1">
                                             <h6 class="text-sm mb-0">Germany</h6>
                                             <span class="text-xs text-secondary-light fw-medium">1,240 Users</span>
@@ -354,7 +354,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/asset/asset-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/asset/asset-img1.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Gold</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Main Asset</span>
@@ -375,7 +375,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/asset/asset-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/asset/asset-img2.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Dollars</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Currency</span>
@@ -396,7 +396,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/asset/asset-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/asset/asset-img3.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Stock Market</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Product</span>
@@ -417,7 +417,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/asset/asset-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/asset/asset-img4.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">Dimond</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Asset</span>
@@ -438,7 +438,7 @@
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <img src="{{ asset('admin/assets/images/asset/asset-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
+                                                    <img src="{{ asset('admin-assets/assets/images/asset/asset-img5.png') }}" alt="" class="flex-shrink-0 me-12 w-40-px h-40-px radius-8 me-12">
                                                     <div class="flex-grow-1">
                                                         <h6 class="text-md mb-0 fw-normal">S&P 500</h6>
                                                         <span class="text-sm text-secondary-light fw-normal">Index</span>
@@ -477,7 +477,7 @@
                             </div>
 
                             <div class="d-flex align-items-start gap-2 mb-20">
-                                <img src="{{ asset('admin/assets/images/notice/board-img1.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
+                                <img src="{{ asset('admin-assets/assets/images/notice/board-img1.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-1 fw-semibold">Admin</h6>
                                     <p class="text-sm text-secondary-light fw-medium mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy.</p>
@@ -486,7 +486,7 @@
                             </div>
 
                             <div class="d-flex align-items-start gap-2 mb-20">
-                                <img src="{{ asset('admin/assets/images/notice/board-img2.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
+                                <img src="{{ asset('admin-assets/assets/images/notice/board-img2.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-1 fw-semibold">Kathryn Murphy</h6>
                                     <p class="text-sm text-secondary-light fw-medium mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -495,7 +495,7 @@
                             </div>
 
                             <div class="d-flex align-items-start gap-2">
-                                <img src="{{ asset('admin/assets/images/notice/board-img3.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
+                                <img src="{{ asset('admin-assets/assets/images/notice/board-img3.png') }}" alt="" class="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12">
                                 <div class="flex-grow-1">
                                     <h6 class="text-md mb-1 fw-semibold">Cameron Williamson</h6>
                                     <p class="text-sm text-secondary-light fw-medium mb-1">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>

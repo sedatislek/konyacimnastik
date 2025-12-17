@@ -32,7 +32,7 @@
                                                 </span></p>
                                         </div>
                                         <div class="col-sm-4">
-                                            <img src="{{ asset('admin/assets/images/logo.png') }}" alt="image" class="mb-8">
+                                            <img src="{{ asset('admin-assets/assets/images/logo.png') }}" alt="image" class="mb-8">
                                             <p class="mb-1 text-sm">4517 Washington Ave. Manchester, Kentucky 39495</p>
                                             <p class="mb-0 text-sm">random@gmail.com, +1 543 2198</p>
                                         </div>

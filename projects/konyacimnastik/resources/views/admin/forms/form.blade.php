@@ -34,7 +34,7 @@
                             <label class="form-label">Input with Payment</label>
                             <div class="input-group">
                                 <span class="input-group-text bg-base">
-                                    <img src="{{ asset('admin/assets/images/card/payment-icon.png') }}" alt="image">
+                                    <img src="{{ asset('admin-assets/assets/images/card/payment-icon.png') }}" alt="image">
                                 </span>
                                 <input type="text" class="form-control flex-grow-1" placeholder="Card number">
                             </div>

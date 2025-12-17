@@ -204,7 +204,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img1.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Bitcoin</span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">BTC</span>
@@ -238,7 +238,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img2.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Ethereum</span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">ETH</span>
@@ -272,7 +272,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img3.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Litecoin</span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">LTC</span>
@@ -306,7 +306,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img4.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Binance</span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">BNB</span>
@@ -340,7 +340,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img6.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Dogecoin</span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">DOGE</span>
@@ -374,7 +374,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Polygon </span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">MATIC</span>
@@ -408,7 +408,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Polygon </span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">MATIC</span>
@@ -442,7 +442,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Polygon </span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">MATIC</span>
@@ -476,7 +476,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Polygon </span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">MATIC</span>
@@ -510,7 +510,7 @@
                                     </td>
                                     <td>
                                         <a  href="{{ route('admin.marketplaceDetails') }}" class="d-flex align-items-center">
-                                            <img src="{{ asset('admin/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
+                                            <img src="{{ asset('admin-assets/assets/images/crypto/crypto-img5.png') }}" alt="" class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
                                             <span class="flex-grow-1 d-flex flex-column">
                                                 <span class="text-md mb-0 fw-medium text-primary-light d-block">Polygon </span>
                                                 <span class="text-xs mb-0 fw-normal text-secondary-light">MATIC</span>

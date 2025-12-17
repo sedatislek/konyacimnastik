@@ -224,7 +224,7 @@
 
                         <div class="d-flex flex-wrap align-items-center gap-3">
                             <button type="button" class="position-relative">
-                                <img src="{{ asset('admin/assets/images/lang-flag.png') }}" alt="image" class="w-32-px h-32-px object-fit-cover rounded-circle">
+                                <img src="{{ asset('admin-assets/assets/images/lang-flag.png') }}" alt="image" class="w-32-px h-32-px object-fit-cover rounded-circle">
                                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger-600 border border-white">2</span>
                             </button>
                         </div>

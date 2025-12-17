@@ -10,7 +10,7 @@
         <div class="container container--xl">
             <div class="d-flex align-items-center justify-content-between py-24">
                 <a href="{{ route('admin.index') }}" class="">
-                    <img src="{{ asset('admin/assets/images/logo.png') }}" alt="">
+                    <img src="{{ asset('admin-assets/assets/images/logo.png') }}" alt="">
                 </a>
                 <a href="{{ route('admin.index') }}" class="btn btn-outline-primary-600 text-sm"> Go To Home </a>
             </div>
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="col-lg-6 d-lg-block d-none">
-                        <img src="{{ asset('admin/assets/images/coming-soon/maintenance.png') }}" alt="">
+                        <img src="{{ asset('admin-assets/assets/images/coming-soon/maintenance.png') }}" alt="">
                     </div>
                 </div>
             </div>

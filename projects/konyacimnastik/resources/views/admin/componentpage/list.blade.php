@@ -156,31 +156,31 @@
                             <ul class="list-group radius-8">
                                 <li class="list-group-item border text-secondary-light p-16 bg-success-100 text-success-600 border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img1.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img1.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Push Notification (This is push notifications)
                                     </div>
                                 </li>
                                 <li class="list-group-item border text-secondary-light p-16 bg-info-100 text-info-600 border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img2.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img2.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         New Orders confirmed (This is Orders confirmed)
                                     </div>
                                 </li>
                                 <li class="list-group-item border text-secondary-light p-16 bg-lilac-100 text-lilac-600 border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img3.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img3.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Security Access (This is Security Access)
                                     </div>
                                 </li>
                                 <li class="list-group-item border text-secondary-light p-16 bg-warning-100 text-warning-600 border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img4.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img4.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Storage Folder (This is Storage Folder)
                                     </div>
                                 </li>
                                 <li class="list-group-item border text-secondary-light p-16 bg-danger-100 text-danger-600">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img5.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img5.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Forward Message (This is Forward Message)
                                     </div>
                                 </li>
@@ -197,35 +197,35 @@
                             <ul class="list-group radius-8">
                                 <li class="list-group-item d-flex align-items-center justify-content-between border text-secondary-light p-16 bg-base border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img1.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img1.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Push Notification (This is push notifications)
                                     </div>
                                     <span class="text-xs bg-danger-100 text-danger-600 radius-4 px-10 py-2 fw-semibold">Low</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center justify-content-between border text-secondary-light p-16 bg-base border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img2.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img2.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         New Orders confirmed (This is Orders confirmed)
                                     </div>
                                     <span class="text-xs bg-success-100 text-success-600 radius-4 px-10 py-2 fw-semibold">High</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center justify-content-between border text-secondary-light p-16 bg-base border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img3.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img3.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Security Access (This is Security Access)
                                     </div>
                                     <span class="text-xs bg-lilac-100 text-lilac-600 radius-4 px-10 py-2 fw-semibold">Medium</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center justify-content-between border text-secondary-light p-16 bg-base border-bottom-0">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img4.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img4.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Storage Folder (This is Storage Folder)
                                     </div>
                                     <span class="text-xs bg-danger-100 text-danger-600 radius-4 px-10 py-2 fw-semibold">Low</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center justify-content-between border text-secondary-light p-16 bg-base">
                                     <div class="d-flex align-items-center gap-2">
-                                        <img src="{{ asset('admin/assets/images/lists/list-img5.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
+                                        <img src="{{ asset('admin-assets/assets/images/lists/list-img5.png') }}" class="w-32-px h-32-px rounded-circle" alt="">
                                         Forward Message (This is Forward Message)
                                     </div>
                                     <span class="text-xs bg-lilac-100 text-lilac-600 radius-4 px-10 py-2 fw-semibold">Medium</span>

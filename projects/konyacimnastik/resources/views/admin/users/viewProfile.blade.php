@@ -43,10 +43,10 @@
             <div class="row gy-4">
                 <div class="col-lg-4">
                     <div class="user-grid-card position-relative border radius-16 overflow-hidden bg-base h-100">
-                        <img src="{{ asset('admin/assets/images/user-grid/user-grid-bg1.png') }}" alt="" class="w-100 object-fit-cover">
+                        <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-bg1.png') }}" alt="" class="w-100 object-fit-cover">
                         <div class="pb-24 ms-16 mb-24 me-16  mt--100">
                             <div class="text-center border border-top-0 border-start-0 border-end-0">
-                                <img src="{{ asset('admin/assets/images/user-grid/user-grid-img14.png') }}" alt="" class="border br-white border-width-2-px w-200-px h-200-px rounded-circle object-fit-cover">
+                                <img src="{{ asset('admin-assets/assets/images/user-grid/user-grid-img14.png') }}" alt="" class="border br-white border-width-2-px w-200-px h-200-px rounded-circle object-fit-cover">
                                 <h6 class="mb-0 mt-16">Jacob Jones</h6>
                                 <span class="text-secondary-light mb-16">ifrandom@gmail.com</span>
                             </div>
