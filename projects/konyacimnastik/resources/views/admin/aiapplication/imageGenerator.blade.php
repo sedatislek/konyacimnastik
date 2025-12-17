@@ -64,7 +64,7 @@
             <div class="chat-main card overflow-hidden">
                 <div class="chat-sidebar-single gap-8 justify-content-between cursor-default flex-nowrap">
                     <div class="d-flex align-items-center gap-16">
-                    <a  href="{{ route('textGeneratorNew') }}" class="text-primary-light text-2xl line-height-1"><i class="ri-arrow-left-line"></i></a>
+                    <a  href="{{ route('admin.textGeneratorNew') }}" class="text-primary-light text-2xl line-height-1"><i class="ri-arrow-left-line"></i></a>
                         <h6 class="text-lg mb-0 text-line-1">Please, Make 4 variant of this image Quickly As Soon As possible</h6>
                     </div>
 

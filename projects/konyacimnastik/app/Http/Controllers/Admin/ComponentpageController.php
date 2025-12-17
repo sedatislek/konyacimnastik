@@ -29,17 +29,17 @@ class ComponentpageController extends Controller
 
     public function calendar()
     {
-        return view('admin.calendar');
+        return view('admin.componentpage.calendar');
     }
 
     public function card()
     {
-        return view('admin.card');
+        return view('admin.componentpage.card');
     }
 
     public function carousel()
     {
-        return view('admin.carousel');
+        return view('admin.componentpage.carousel');
     }
 
     public function colors()

@@ -32,7 +32,7 @@
                             <iconify-icon icon="ion:search-outline" class="icon"></iconify-icon>
                         </form>
                     </div>
-                    <a  href="{{ route('viewProfile') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center gap-2">
+                    <a  href="{{ route('admin.viewProfile') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center gap-2">
                         <iconify-icon icon="ic:baseline-plus" class="icon text-xl line-height-1"></iconify-icon>
                         Add New User
                     </a>
@@ -76,7 +76,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -120,7 +120,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -164,7 +164,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -208,7 +208,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -252,7 +252,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -296,7 +296,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -340,7 +340,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -384,7 +384,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -428,7 +428,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -472,7 +472,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -516,7 +516,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>
@@ -560,7 +560,7 @@
                                             <span class="text-secondary-light text-sm mb-0">Designation</span>
                                         </div>
                                     </div>
-                                    <a  href="{{ route('viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
+                                    <a  href="{{ route('admin.viewProfile') }}" class="bg-primary-50 text-primary-600 bg-hover-primary-600 hover-text-white p-10 text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center justify-content-center mt-16 fw-medium gap-2 w-100">
                                         View Profile
                                         <iconify-icon icon="solar:alt-arrow-right-linear" class="icon text-xl line-height-1"></iconify-icon>
                                     </a>

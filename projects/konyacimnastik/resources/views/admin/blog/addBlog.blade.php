@@ -157,78 +157,78 @@
                             </div>
                             <div class="card-body d-flex flex-column gap-24 p-24">
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog1.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog2.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog3.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog4.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-wrap">
-                                    <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                                    <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                         <img src="{{ asset('admin/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                                     </a>
                                     <div class="blog__content">
                                         <h6 class="mb-8">
-                                            <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
+                                            <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
                                         </h6>
                                         <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                                     </div>

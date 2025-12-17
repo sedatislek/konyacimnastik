@@ -205,45 +205,45 @@
                     </div>
                     <div class="card-body d-flex flex-column gap-24 p-24">
                         <div class="d-flex flex-wrap">
-                            <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                            <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                 <img src="{{ asset('admin/assets/images/blog/blog5.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
-                                    <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
+                                    <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">How to hire a right business executive for your company</a>
                                 </h6>
                                 <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                             </div>
                         </div>
                         <div class="d-flex flex-wrap">
-                            <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                            <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                 <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
-                                    <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
+                                    <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Gig Economy: Adapting to a Flexible Workforce</a>
                                 </h6>
                                 <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                             </div>
                         </div>
                         <div class="d-flex flex-wrap">
-                            <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                            <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                 <img src="{{ asset('admin/assets/images/blog/blog7.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
-                                    <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
+                                    <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">The Future of Remote Work: Strategies for Success</a>
                                 </h6>
                                 <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                             </div>
                         </div>
                         <div class="d-flex flex-wrap">
-                            <a  href="{{ route('blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
+                            <a  href="{{ route('admin.blogDetails') }}" class="blog__thumb w-100 radius-12 overflow-hidden">
                                 <img src="{{ asset('admin/assets/images/blog/blog6.png') }}" alt="" class="w-100 h-100 object-fit-cover">
                             </a>
                             <div class="blog__content">
                                 <h6 class="mb-8">
-                                    <a  href="{{ route('blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                    <a  href="{{ route('admin.blogDetails') }}" class="text-line-2 text-hover-primary-600 text-md transition-2">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                                 </h6>
                                 <p class="text-line-2 text-sm text-neutral-500 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores explicabo corrupti, fuga necessitatibus fugiat adipisci quidem eveniet enim minus.</p>
                             </div>
@@ -259,23 +259,23 @@
                     <div class="card-body p-24">
                         <ul>
                             <li class="w-100 d-flex align-items-center justify-content-between flex-wrap gap-8 border-bottom border-dashed pb-12 mb-12">
-                                <a  href="{{ route('blog') }}" class="text-hover-primary-600 transition-2"> Techbology </a>
+                                <a  href="{{ route('admin.blog') }}" class="text-hover-primary-600 transition-2"> Techbology </a>
                                 <span class="text-neutral-500 w-28-px h-28-px rounded-circle bg-neutral-100 d-flex justify-content-center align-items-center transition-2 text-xs fw-semibold"> 01 </span>
                             </li>
                             <li class="w-100 d-flex align-items-center justify-content-between flex-wrap gap-8 border-bottom border-dashed pb-12 mb-12">
-                                <a  href="{{ route('blog') }}" class="text-hover-primary-600 transition-2"> Business </a>
+                                <a  href="{{ route('admin.blog') }}" class="text-hover-primary-600 transition-2"> Business </a>
                                 <span class="text-neutral-500 w-28-px h-28-px rounded-circle bg-neutral-100 d-flex justify-content-center align-items-center transition-2 text-xs fw-semibold"> 01 </span>
                             </li>
                             <li class="w-100 d-flex align-items-center justify-content-between flex-wrap gap-8 border-bottom border-dashed pb-12 mb-12">
-                                <a  href="{{ route('blog') }}" class="text-hover-primary-600 transition-2"> Consulting </a>
+                                <a  href="{{ route('admin.blog') }}" class="text-hover-primary-600 transition-2"> Consulting </a>
                                 <span class="text-neutral-500 w-28-px h-28-px rounded-circle bg-neutral-100 d-flex justify-content-center align-items-center transition-2 text-xs fw-semibold"> 01 </span>
                             </li>
                             <li class="w-100 d-flex align-items-center justify-content-between flex-wrap gap-8 border-bottom border-dashed pb-12 mb-12">
-                                <a  href="{{ route('blog') }}" class="text-hover-primary-600 transition-2"> Course </a>
+                                <a  href="{{ route('admin.blog') }}" class="text-hover-primary-600 transition-2"> Course </a>
                                 <span class="text-neutral-500 w-28-px h-28-px rounded-circle bg-neutral-100 d-flex justify-content-center align-items-center transition-2 text-xs fw-semibold"> 01 </span>
                             </li>
                             <li class="w-100 d-flex align-items-center justify-content-between flex-wrap gap-8">
-                                <a  href="{{ route('blog') }}" class="text-hover-primary-600 transition-2"> Real Estate </a>
+                                <a  href="{{ route('admin.blog') }}" class="text-hover-primary-600 transition-2"> Real Estate </a>
                                 <span class="text-neutral-500 w-28-px h-28-px rounded-circle bg-neutral-100 d-flex justify-content-center align-items-center transition-2 text-xs fw-semibold"> 01 </span>
                             </li>
                         </ul>
@@ -289,14 +289,14 @@
                     </div>
                     <div class="card-body p-24">
                         <div class="d-flex align-items-center flex-wrap gap-8">
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Development </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Design </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Technology </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Popular </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Codignator </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Javascript </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Bootstrap </a>
-                            <a  href="{{ route('blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> PHP </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Development </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Design </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Technology </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Popular </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Codignator </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Javascript </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> Bootstrap </a>
+                            <a  href="{{ route('admin.blog') }}" class="btn btn-sm btn-primary-600 bg-primary-50 bg-hover-primary-600 text-primary-600 border-0 d-inline-flex align-items-center gap-1 text-sm px-16 py-6"> PHP </a>
                         </div>
                     </div>
                 </div>

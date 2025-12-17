@@ -9,10 +9,10 @@
     <div class="custom-bg">
         <div class="container container--xl">
             <div class="d-flex align-items-center justify-content-between py-24">
-                <a href="{{ route('index') }}" class="">
+                <a href="{{ route('admin.index') }}" class="">
                     <img src="{{ asset('admin/assets/images/logo.png') }}" alt="">
                 </a>
-                <a href="{{ route('index') }}" class="btn btn-outline-primary-600 text-sm"> Go To Home </a>
+                <a href="{{ route('admin.index') }}" class="btn btn-outline-primary-600 text-sm"> Go To Home </a>
             </div>
 
             <div class="py-res-120">

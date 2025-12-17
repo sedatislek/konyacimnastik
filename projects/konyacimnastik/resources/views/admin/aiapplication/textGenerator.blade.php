@@ -11,7 +11,7 @@
             <div class="card h-100 p-0">
                 <div class="card-body p-0">
                     <div class="p-24">
-                    <a  href="{{ route('textGeneratorNew') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 w-100 radius-8 d-flex align-items-center justify-content-center gap-2">
+                    <a  href="{{ route('admin.textGeneratorNew') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 w-100 radius-8 d-flex align-items-center justify-content-center gap-2">
                             <i class="ri-messenger-line"></i>
                             New Chat
                         </a>
@@ -20,44 +20,44 @@
                     <ul class="ai-chat-list scroll-sm pe-24 ps-24 pb-24">
                         <li class="mb-16 mt-0"><span class="text-primary-600 text-sm fw-semibold">Today</span></li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">UI/UX Design Roadmap write me the roadmap right now </a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">UI/UX Design Roadmap write me the roadmap right now </a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
 
                         <li class="mb-16 mt-24"><span class="text-primary-600 text-sm fw-semibold">Yesterday</span></li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Online School Education Learning</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Online School Education Learning</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
 
                         <li class="mb-16 mt-24"><span class="text-primary-600 text-sm fw-semibold">17/06/2024</span></li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Online School Education Learning</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Online School Education Learning</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
                         <li class="mb-16">
-                            <a  href="{{ route('textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
+                            <a  href="{{ route('admin.textGenerator') }}" class="text-line-1 text-secondary-light text-hover-primary-600">Calorie-dense foods: Needs, healthy</a>
                         </li>
 
                         <li class="mb-16 mt-24"><span class="text-primary-600 text-sm fw-semibold">15/06/2024</span></li>
@@ -73,7 +73,7 @@
             <div class="chat-main card overflow-hidden">
                 <div class="chat-sidebar-single gap-8 justify-content-between cursor-default flex-nowrap">
                     <div class="d-flex align-items-center gap-16">
-                    <a  href="{{ route('textGeneratorNew') }}" class="text-primary-light text-2xl line-height-1"><i class="ri-arrow-left-line"></i></a>
+                    <a  href="{{ route('admin.textGeneratorNew') }}" class="text-primary-light text-2xl line-height-1"><i class="ri-arrow-left-line"></i></a>
                         <h6 class="text-lg mb-0 text-line-1">UI/UX Design Roadmap write me</h6>
                     </div>
 

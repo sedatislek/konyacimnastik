@@ -441,7 +441,7 @@
                         </span>
                         <h5 class="mb-8 text-2xl">Your purchase was successful!</h5>
                         <p class="text-neutral-500 mb-0"> <span class="text-primary-600">16.2665 ITC</span> will be available in your portfolio on 10-10-2022</p>
-                        <a href="{{ route('index') }}" class="btn btn-primary-600 mt-32 px-24">Back to Dashboard</a>
+                        <a href="{{ route('admin.index') }}" class="btn btn-primary-600 mt-32 px-24">Back to Dashboard</a>
                     </div>
                 </div>
             </div>

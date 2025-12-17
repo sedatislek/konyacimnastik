@@ -37,7 +37,7 @@
                             <option>Inactive</option>
                         </select>
                     </div>
-                    <a  href="{{ route('addUser') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center gap-2">
+                    <a  href="{{ route('admin.addUser') }}" class="btn btn-primary text-sm btn-sm px-12 py-12 radius-8 d-flex align-items-center gap-2">
                         <iconify-icon icon="ic:baseline-plus" class="icon text-xl line-height-1"></iconify-icon>
                         Add New User
                     </a>

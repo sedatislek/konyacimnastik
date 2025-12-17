@@ -66,7 +66,7 @@
                             <div class="mt-16">
                                 <ul>
                                     <li class="item-active mb-4">
-                                        <a  href="{{ route('email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -79,7 +79,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a  href="{{ route('starred') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.starred') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -92,7 +92,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a  href="{{ route('email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -105,7 +105,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a  href="{{ route('email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -118,7 +118,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a  href="{{ route('email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -131,7 +131,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a  href="{{ route('email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
+                                        <a  href="{{ route('admin.email') }}" class="bg-hover-primary-50 px-12 py-8 w-100 radius-8 text-secondary-light">
                                             <span class="d-flex align-items-center gap-10 justify-content-between w-100">
                                                 <span class="d-flex align-items-center gap-10">
                                                     <span class="icon text-xxl line-height-1 d-flex">
@@ -281,8 +281,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Jerome Bell</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Jerome Bell</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -293,8 +293,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Kristin Watson</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Kristin Watson</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -305,8 +305,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Cody Fisher</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Cody Fisher</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -317,8 +317,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Dianne Russell</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Dianne Russell</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -329,8 +329,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Floyd Miles</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Floyd Miles</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -341,8 +341,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Devon Lane</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Devon Lane</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -353,8 +353,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Dianne Russell</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Dianne Russell</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -365,8 +365,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Annette Black</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Annette Black</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -377,8 +377,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Bessie Cooper</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Bessie Cooper</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -389,8 +389,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Courtney Henry</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Courtney Henry</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                                 <li class="email-item px-24 py-16 d-flex gap-4 align-items-center border-bottom cursor-pointer bg-hover-neutral-200 min-w-max-content ">
@@ -401,8 +401,8 @@
                                         <iconify-icon icon="ph:star" class="icon-outline line-height-1"></iconify-icon>
                                         <iconify-icon icon="ph:star-fill" class="icon-fill line-height-1 text-warning-600"></iconify-icon>
                                     </button>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Wade Warren</a>
-                                    <a  href="{{ route('veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium text-md text-line-1 w-190-px">Wade Warren</a>
+                                    <a  href="{{ route('admin.veiwDetails') }}" class="text-primary-light fw-medium mb-0 text-line-1 max-w-740-px">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus</a>
                                     <span class="text-primary-light fw-medium min-w-max-content ms-auto">6:07 AM</span>
                                 </li>
                             </ul>
