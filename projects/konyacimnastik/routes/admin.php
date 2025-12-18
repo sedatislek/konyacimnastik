@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Auth\AdminLoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\AiapplicationController;
@@ -62,6 +63,17 @@ Route::prefix('authentication')->group(function () {
         Route::get('/signup', 'signup')->name('signup');
     });
 });
+
+    Route::middleware('guest:admin')->group(function () {
+        Route::get('/login', [AdminLoginController::class, 'showLoginForm'])->name('login');
+        Route::post('/login', [AdminLoginController::class, 'login'])->name('login.post');
+    });
+
+    // AUTH
+    Route::middleware('auth:admin')->group(function () {
+        Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+        Route::post('/logout', [AdminLoginController::class, 'logout'])->name('logout');
+    });
 
 // chart
 Route::prefix('chart')->group(function () {
