@@ -3,7 +3,7 @@
         <iconify-icon icon="radix-icons:cross-2"></iconify-icon>
     </button>
     <div>
-        <a href="{{ route('admin.index') }}" class="sidebar-logo">
+        <a href="{{ route('admin.dashboard') }}" class="sidebar-logo">
             <img src="{{ asset('admin-assets/assets/images/logo.png') }}" alt="site logo" class="light-logo">
             <img src="{{ asset('admin-assets/assets/images/logo-light.png') }}" alt="site logo" class="dark-logo">
             <img src="{{ asset('admin-assets/assets/images/logo-icon.png') }}" alt="site logo" class="logo-icon">
@@ -16,9 +16,9 @@
                     <iconify-icon icon="solar:home-smile-angle-outline" class="menu-icon"></iconify-icon>
                     <span>Dashboard</span>
                 </a>
-                <ul class="sidebar-submenu">
+                {{--<ul class="sidebar-submenu">
                     <li>
-                        <a href="{{ route('admin.index') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> AI</a>
+                        <a href="{{ route('admin.login') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> AI</a>
                     </li>
                     <li>
                     <a href="{{ route('admin.index2') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> CRM</a>
@@ -47,7 +47,7 @@
                     <li>
                     <a href="{{ route('admin.index10') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> POS & Inventory </a>
                     </li>
-                </ul>
+                </ul>--}}
             </li>
             <li class="sidebar-menu-group-title">Application</li>
             <li>
@@ -314,7 +314,7 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a  href="{{ route('admin.signin') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Sign In</a>
+                        <a  href="{{ route('admin.login') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Sign In</a>
                     </li>
                     <li>
                         <a  href="{{ route('admin.signup') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Sign Up</a>
