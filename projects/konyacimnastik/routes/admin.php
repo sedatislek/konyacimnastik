@@ -98,7 +98,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
             Route::get('widgets', 'widgets')->name('widgets');
             Route::get('chatprofile', 'chatProfile')->name('chatProfile');
             Route::get('veiwdetails', 'veiwDetails')->name('veiwDetails');
-            Route::get('blankPage', 'blankPage')->name('blankPage');
+            Route::get('blankPage', 'blankPage')->name('blankPage')->middleware('can:permission,dashboard.view');;
             Route::get('comingSoon', 'comingSoon')->name('comingSoon');
             Route::get('maintenance', 'maintenance')->name('maintenance');
             Route::get('starred', 'starred')->name('starred');
