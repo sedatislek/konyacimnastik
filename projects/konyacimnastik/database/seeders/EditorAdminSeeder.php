@@ -6,14 +6,14 @@ use App\Models\Admin;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
-class AdminSeeder extends Seeder
+class EditorAdminSeeder extends Seeder
 {
     public function run(): void
     {
         Admin::updateOrCreate(
-            ['email' => 'admin@konyacimnastik.test'],
+            ['email' => 'editor@konyacimnastik.test'],
             [
-                'name' => 'Super Admin',
+                'name' => 'Editor Admin',
                 'password' => Hash::make('1234'),
             ]
         );

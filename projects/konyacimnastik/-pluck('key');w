@@ -1,0 +1,11 @@
+[90m= [39m[34;4mApp\Models\Admin[39;24m {#5910
+    [34mid[39m: [35m1[39m,
+    [34mname[39m: "[32mSuper Admin[39m",
+    [34memail[39m: "[32madmin@konyacimnastik.test[39m",
+    #[33mpassword[39m: "[32m$2y$12$Ufcil13wQbct8SNp4sorZ.DflXt5vXHOWjfHtytiK7RVY7rajtQsS[39m",
+    [34mrole[39m: "[32msuperadmin[39m",
+    #[33mremember_token[39m: [36mnull[39m,
+    [34mcreated_at[39m: "[32m2025-12-20 12:12:50[39m",
+    [34mupdated_at[39m: "[32m2025-12-20 23:52:21[39m",
+  }
+

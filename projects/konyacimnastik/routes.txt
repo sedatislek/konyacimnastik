@@ -1,0 +1,104 @@
+
+  GET|HEAD   / .................................................................................................................................. 
+  GET|HEAD   admin ............................................................................ admin.dashboard › Admin\DashboardController@index
+  GET|HEAD   admin/aiapplication/codegenerator ................................ admin.codeGenerator › Admin\AiapplicationController@codeGenerator
+  GET|HEAD   admin/aiapplication/codegeneratornew ....................... admin.codeGeneratorNew › Admin\AiapplicationController@codeGeneratorNew
+  GET|HEAD   admin/aiapplication/imagegenerator ............................. admin.imageGenerator › Admin\AiapplicationController@imageGenerator
+  GET|HEAD   admin/aiapplication/textgenerator ................................ admin.textGenerator › Admin\AiapplicationController@textGenerator
+  GET|HEAD   admin/aiapplication/textgeneratornew ....................... admin.textGeneratorNew › Admin\AiapplicationController@textGeneratorNew
+  GET|HEAD   admin/aiapplication/videogenerator ............................. admin.videoGenerator › Admin\AiapplicationController@videoGenerator
+  GET|HEAD   admin/aiapplication/voicegenerator ............................. admin.voiceGenerator › Admin\AiapplicationController@voiceGenerator
+  GET|HEAD   admin/blankPage ................................................................... admin.blankPage › Admin\HomeController@blankPage
+  GET|HEAD   admin/blog/addBlog .................................................................... admin.addBlog › Admin\BlogController@addBlog
+  GET|HEAD   admin/blog/blog ............................................................................. admin.blog › Admin\BlogController@blog
+  GET|HEAD   admin/blog/blogDetails ........................................................ admin.blogDetails › Admin\BlogController@blogDetails
+  GET|HEAD   admin/chart/columnchart ...................................................... admin.columnChart › Admin\ChartController@columnChart
+  GET|HEAD   admin/chart/linechart ............................................................ admin.lineChart › Admin\ChartController@lineChart
+  GET|HEAD   admin/chart/piechart ............................................................... admin.pieChart › Admin\ChartController@pieChart
+  GET|HEAD   admin/chatempty ................................................................... admin.chatempty › Admin\HomeController@chatempty
+  GET|HEAD   admin/chatmessage ............................................................. admin.chatMessage › Admin\HomeController@chatMessage
+  GET|HEAD   admin/chatprofile ............................................................. admin.chatProfile › Admin\HomeController@chatProfile
+  GET|HEAD   admin/comingSoon ................................................................ admin.comingSoon › Admin\HomeController@comingSoon
+  GET|HEAD   admin/componentpage/alert ........................................................ admin.alert › Admin\ComponentpageController@alert
+  GET|HEAD   admin/componentpage/avatar ..................................................... admin.avatar › Admin\ComponentpageController@avatar
+  GET|HEAD   admin/componentpage/badges ..................................................... admin.badges › Admin\ComponentpageController@badges
+  GET|HEAD   admin/componentpage/button ..................................................... admin.button › Admin\ComponentpageController@button
+  GET|HEAD   admin/componentpage/calendar ............................................... admin.calendar › Admin\ComponentpageController@calendar
+  GET|HEAD   admin/componentpage/card ........................................................... admin.card › Admin\ComponentpageController@card
+  GET|HEAD   admin/componentpage/carousel ............................................... admin.carousel › Admin\ComponentpageController@carousel
+  GET|HEAD   admin/componentpage/colors ..................................................... admin.colors › Admin\ComponentpageController@colors
+  GET|HEAD   admin/componentpage/dropdown ............................................... admin.dropdown › Admin\ComponentpageController@dropdown
+  GET|HEAD   admin/componentpage/imageupload ...................................... admin.imageUpload › Admin\ComponentpageController@imageUpload
+  GET|HEAD   admin/componentpage/list ........................................................... admin.list › Admin\ComponentpageController@list
+  GET|HEAD   admin/componentpage/pagination ......................................... admin.pagination › Admin\ComponentpageController@pagination
+  GET|HEAD   admin/componentpage/progress ............................................... admin.progress › Admin\ComponentpageController@progress
+  GET|HEAD   admin/componentpage/radio ........................................................ admin.radio › Admin\ComponentpageController@radio
+  GET|HEAD   admin/componentpage/starrating ......................................... admin.starRating › Admin\ComponentpageController@starRating
+  GET|HEAD   admin/componentpage/switch ..................................................... admin.switch › Admin\ComponentpageController@switch
+  GET|HEAD   admin/componentpage/tabs ........................................................... admin.tabs › Admin\ComponentpageController@tabs
+  GET|HEAD   admin/componentpage/tags ........................................................... admin.tags › Admin\ComponentpageController@tags
+  GET|HEAD   admin/componentpage/tooltip .................................................. admin.tooltip › Admin\ComponentpageController@tooltip
+  GET|HEAD   admin/componentpage/typography ......................................... admin.typography › Admin\ComponentpageController@typography
+  GET|HEAD   admin/componentpage/videos ..................................................... admin.videos › Admin\ComponentpageController@videos
+  GET|HEAD   admin/cryptocurrency/marketplace .................................... admin.marketplace › Admin\CryptocurrencyController@marketplace
+  GET|HEAD   admin/cryptocurrency/marketplacedetails ............... admin.marketplaceDetails › Admin\CryptocurrencyController@marketplaceDetails
+  GET|HEAD   admin/cryptocurrency/portfolio .......................................... admin.portfolio › Admin\CryptocurrencyController@portfolio
+  GET|HEAD   admin/cryptocurrency/wallet ................................................... admin.wallet › Admin\CryptocurrencyController@wallet
+  GET|HEAD   admin/dashboard/index10 .......................................................... admin.index10 › Admin\DashboardController@index10
+  GET|HEAD   admin/dashboard/index2 ............................................................. admin.index2 › Admin\DashboardController@index2
+  GET|HEAD   admin/dashboard/index3 ............................................................. admin.index3 › Admin\DashboardController@index3
+  GET|HEAD   admin/dashboard/index4 ............................................................. admin.index4 › Admin\DashboardController@index4
+  GET|HEAD   admin/dashboard/index5 ............................................................. admin.index5 › Admin\DashboardController@index5
+  GET|HEAD   admin/dashboard/index6 ............................................................. admin.index6 › Admin\DashboardController@index6
+  GET|HEAD   admin/dashboard/index7 ............................................................. admin.index7 › Admin\DashboardController@index7
+  GET|HEAD   admin/dashboard/index8 ............................................................. admin.index8 › Admin\DashboardController@index8
+  GET|HEAD   admin/dashboard/index9 ............................................................. admin.index9 › Admin\DashboardController@index9
+  GET|HEAD   admin/email ............................................................................... admin.email › Admin\HomeController@email
+  GET|HEAD   admin/error .............................................................................. admin.error › Admin\HomeController@error1
+  GET|HEAD   admin/faq ..................................................................................... admin.faq › Admin\HomeController@faq
+  GET|HEAD   admin/forgot-password ......................................... admin.forgotPassword › Admin\AuthenticationController@forgotPassword
+  GET|HEAD   admin/forms/form ........................................................................... admin.form › Admin\FormsController@form
+  GET|HEAD   admin/forms/form-layout ........................................................ admin.formLayout › Admin\FormsController@formLayout
+  GET|HEAD   admin/forms/form-validation ............................................ admin.formValidation › Admin\FormsController@formValidation
+  GET|HEAD   admin/forms/wizard ..................................................................... admin.wizard › Admin\FormsController@wizard
+  GET|HEAD   admin/gallery ......................................................................... admin.gallery › Admin\HomeController@gallery
+  GET|HEAD   admin/invoice/invoice-add .................................................... admin.invoiceAdd › Admin\InvoiceController@invoiceAdd
+  GET|HEAD   admin/invoice/invoice-edit ................................................. admin.invoiceEdit › Admin\InvoiceController@invoiceEdit
+  GET|HEAD   admin/invoice/invoice-list ................................................. admin.invoiceList › Admin\InvoiceController@invoiceList
+  GET|HEAD   admin/invoice/invoice-preview ........................................ admin.invoicePreview › Admin\InvoiceController@invoicePreview
+  GET|HEAD   admin/kanban ............................................................................ admin.kanban › Admin\HomeController@kanban
+  GET|HEAD   admin/login ............................................................ admin.login › Admin\Auth\AdminLoginController@showLoginForm
+  POST       admin/login ............................................................... admin.login.post › Admin\Auth\AdminLoginController@login
+  POST       admin/logout ................................................................. admin.logout › Admin\Auth\AdminLoginController@logout
+  GET|HEAD   admin/maintenance ............................................................. admin.maintenance › Admin\HomeController@maintenance
+  GET|HEAD   admin/pricing ......................................................................... admin.pricing › Admin\HomeController@pricing
+  GET|HEAD   admin/roleandaccess/assign-role ........................................ admin.assignRole › Admin\RoleandaccessController@assignRole
+  POST       admin/roleandaccess/assign-role ............................. admin.assignRole.store › Admin\RoleandaccessController@assignRoleStore
+  GET|HEAD   admin/roleandaccess/role-access ...................................... admin.roleAaccess › Admin\RoleandaccessController@roleAaccess
+  POST       admin/roleandaccess/role-access/{role} .............. admin.roleAaccess.update › Admin\RoleandaccessController@updateRolePermissions
+  GET|HEAD   admin/settings/company ............................................................ admin.company › Admin\SettingsController@company
+  GET|HEAD   admin/settings/currencies ................................................... admin.currencies › Admin\SettingsController@currencies
+  GET|HEAD   admin/settings/language ......................................................... admin.language › Admin\SettingsController@language
+  GET|HEAD   admin/settings/notification ............................................. admin.notification › Admin\SettingsController@notification
+  GET|HEAD   admin/settings/notification-alert ............................. admin.notificationAlert › Admin\SettingsController@notificationAlert
+  GET|HEAD   admin/settings/payment-gateway ...................................... admin.paymentGateway › Admin\SettingsController@paymentGateway
+  GET|HEAD   admin/settings/theme .................................................................. admin.theme › Admin\SettingsController@theme
+  GET|HEAD   admin/signup .................................................................. admin.signup › Admin\AuthenticationController@signup
+  GET|HEAD   admin/starred ......................................................................... admin.starred › Admin\HomeController@starred
+  GET|HEAD   admin/table/tablebasic ......................................................... admin.tableBasic › Admin\TableController@tableBasic
+  GET|HEAD   admin/table/tabledata ............................................................ admin.tableData › Admin\TableController@tableData
+  GET|HEAD   admin/termscondition .................................................... admin.termsCondition › Admin\HomeController@termsCondition
+  GET|HEAD   admin/testimonials .......................................................... admin.testimonials › Admin\HomeController@testimonials
+  GET|HEAD   admin/users/add-user ................................................................. admin.addUser › Admin\UsersController@addUser
+  GET|HEAD   admin/users/users-grid ........................................................... admin.usersGrid › Admin\UsersController@usersGrid
+  GET|HEAD   admin/users/users-list ........................................................... admin.usersList › Admin\UsersController@usersList
+  GET|HEAD   admin/users/view-profile ..................................................... admin.viewProfile › Admin\UsersController@viewProfile
+  GET|HEAD   admin/veiwdetails ............................................................. admin.veiwDetails › Admin\HomeController@veiwDetails
+  GET|HEAD   admin/widgets ......................................................................... admin.widgets › Admin\HomeController@widgets
+  GET|HEAD   api/user ........................................................................................................................... 
+  GET|HEAD   sanctum/csrf-cookie .............................................. sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD   storage/{path} ....................................................................................................... storage.local
+  GET|HEAD   up ................................................................................................................................. 
+
+                                                                                                                             Showing [100] routes
+

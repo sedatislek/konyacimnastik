@@ -334,6 +334,7 @@
                                     <iconify-icon icon="icon-park-outline:setting-two" class="icon text-xl"></iconify-icon> Setting
                                 </a>
                             </li>
+                            @auth('admin')
                             <li>
                                 <a class="dropdown-item text-black px-0 py-8 hover-bg-transparent hover-text-danger d-flex align-items-center gap-3"
                                     href="#"
@@ -342,6 +343,7 @@
                                     Log Out
                                 </a>
                             </li>
+                            @endauth
                         </ul>
                     </div>
                 </div><!-- Profile dropdown end -->
