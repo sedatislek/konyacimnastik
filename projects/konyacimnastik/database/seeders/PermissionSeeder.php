@@ -10,31 +10,27 @@ class PermissionSeeder extends Seeder
     public function run(): void
     {
         $permissions = [
-            // Dashboard
-            ['name' => 'Dashboard View', 'key' => 'dashboard.view'],
+            'dashboard.view' => 'Dashboard View',
 
-            // Settings
-            ['name' => 'Settings Manage', 'key' => 'settings.manage'],
+            'settings.manage' => 'Settings Manage',
 
-            // Blog
-            ['name' => 'Blog View', 'key' => 'blog.view'],
-            ['name' => 'Blog Create', 'key' => 'blog.create'],
-            ['name' => 'Blog Edit', 'key' => 'blog.edit'],
-            ['name' => 'Blog Delete', 'key' => 'blog.delete'],
+            'blog.view'   => 'Blog View',
+            'blog.create' => 'Blog Create',
+            'blog.edit'   => 'Blog Edit',
+            'blog.delete' => 'Blog Delete',
 
-            // Users
-            ['name' => 'Users View', 'key' => 'users.view'],
-            ['name' => 'Users Manage', 'key' => 'users.manage'],
+            'users.view'   => 'Users View',
+            'users.manage' => 'Users Manage',
 
-            // Roles & Permissions
-            ['name' => 'Roles Manage', 'key' => 'roles.manage'],
+            'roles.manage' => 'Roles Manage',
         ];
 
-        foreach ($permissions as $permission) {
+        foreach ($permissions as $key => $name) {
             Permission::updateOrCreate(
-                ['key' => $permission['key']],
-                ['name' => $permission['name']]
+                ['key' => $key],
+                ['name' => $name]
             );
         }
     }
 }
+

@@ -13,7 +13,7 @@ class RolePermissionSeeder extends Seeder
         $superAdmin = Role::where('key', 'superadmin')->first();
         $editor     = Role::where('key', 'editor')->first();
 
-        // SUPER ADMIN → HER ŞEY
+        // SUPER ADMIN → TÜM YETKİLER
         $superAdmin->permissions()->sync(
             Permission::pluck('id')->toArray()
         );
@@ -29,3 +29,4 @@ class RolePermissionSeeder extends Seeder
         );
     }
 }
+

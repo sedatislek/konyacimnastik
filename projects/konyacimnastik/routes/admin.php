@@ -45,7 +45,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         */
         Route::prefix('settings')
             ->controller(SettingsController::class)
-            ->middleware('permission:settings.manage')
+            ->middleware('can:permission,settings.manage')
             ->group(function () {
                 Route::get('company', 'company')->name('company');
                 Route::get('currencies', 'currencies')->name('currencies');
@@ -63,7 +63,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         */
         Route::prefix('roleandaccess')
             ->controller(RoleandaccessController::class)
-            ->middleware('permission:roles.manage')
+            ->middleware('can:permission,roles.manage')
             ->group(function () {
                 // 1️⃣ ADMIN → ROLE
                 Route::get('assign-role', 'assignRole')
