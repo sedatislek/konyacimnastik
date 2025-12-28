@@ -21,7 +21,12 @@ class Admin extends Authenticatable
     // ✅ ADMIN → ROLES
     public function roles()
     {
-        return $this->belongsToMany(Role::class, 'admin_role');
+        return $this->belongsToMany(
+            Role::class,
+            'admin_role',   // ✅ SENİN TABLO
+            'admin_id',
+            'role_id'
+        );
     }
 
     // ✅ ADMIN → PERMISSIONS (role üzerinden)

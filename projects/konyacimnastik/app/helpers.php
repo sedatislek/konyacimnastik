@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Admin;
+use App\Services\AdminPermissionService;
 
 if (! function_exists('admin_can')) {
     function admin_can(string $permissionKey): bool
@@ -11,8 +11,24 @@ if (! function_exists('admin_can')) {
             return false;
         }
 
-        // Super Admin bypass
-        if ($admin->roles->contains('key', 'superadmin')) {
+        return app(AdminPermissionService::class)
+            ->can($admin, $permissionKey);
+    }
+}
+
+
+
+if (! function_exists('admin_can')) {
+    function admin_can(string $permissionKey): bool
+    {
+        $admin = auth('admin')->user();
+
+        if (! $admin) {
+            return false;
+        }
+
+        // ✅ SUPERADMIN BYPASS (ZORUNLU)
+        if ($admin->roles && $admin->roles->contains('key', 'superadmin')) {
             return true;
         }
 
@@ -23,4 +39,3 @@ if (! function_exists('admin_can')) {
             ->exists();
     }
 }
-

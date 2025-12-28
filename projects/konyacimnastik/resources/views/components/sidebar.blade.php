@@ -1,498 +1,177 @@
+@php
+    use App\Support\Permissions;
+
+    $route = request()->route() ? request()->route()->getName() : '';
+
+    function isActive($patterns) {
+        foreach ((array)$patterns as $p) {
+            if (request()->routeIs($p)) return true;
+        }
+        return false;
+    }
+@endphp
+
 <aside class="sidebar">
     <button type="button" class="sidebar-close-btn">
         <iconify-icon icon="radix-icons:cross-2"></iconify-icon>
     </button>
+
     <div>
         <a href="{{ route('admin.dashboard') }}" class="sidebar-logo">
-            <img src="{{ asset('admin-assets/assets/images/logo.png') }}" alt="site logo" class="light-logo">
-            <img src="{{ asset('admin-assets/assets/images/logo-light.png') }}" alt="site logo" class="dark-logo">
-            <img src="{{ asset('admin-assets/assets/images/logo-icon.png') }}" alt="site logo" class="logo-icon">
+            <img src="{{ asset('admin-assets/assets/images/logo.png') }}" class="light-logo">
+            <img src="{{ asset('admin-assets/assets/images/logo-light.png') }}" class="dark-logo">
+            <img src="{{ asset('admin-assets/assets/images/logo-icon.png') }}" class="logo-icon">
         </a>
     </div>
+
     <div class="sidebar-menu-area">
         <ul class="sidebar-menu" id="sidebar-menu">
-            <li class="sidebar-menu-group-title">Setting</li>
 
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="icon-park-outline:setting-two" class="menu-icon"></iconify-icon>
-                    <span>Settings</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    @permission('settings.manage')
-                    <li>
-                        <a href="{{ route('admin.company') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Company</a>
-                    </li>
-                    @endpermission
-                    @permission('blog.view')
-                    <li>
-                        <a href="{{ route('admin.notification') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Notification</a>
-                    </li>
-                    @endpermission
-                    <li>
-                        <a href="{{ route('admin.notificationAlert') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Notification Alert</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.theme') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Theme</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.currencies') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Currencies</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.language') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Languages</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.paymentGateway') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Payment Gateway</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <i class="ri-user-settings-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Role & Access</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.roleAaccess') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Role & Access</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.assignRole') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Assign Role</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <a href="javascript:void(0)">
+            {{-- DASHBOARD --}}
+            <li class="{{ isActive('admin.dashboard') ? 'mm-active' : '' }}">
+                <a class="{{ isActive('admin.dashboard') ? 'active' : '' }}"
+                   href="{{ route('admin.dashboard') }}">
                     <iconify-icon icon="solar:home-smile-angle-outline" class="menu-icon"></iconify-icon>
                     <span>Dashboard</span>
                 </a>
-                {{--<ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.login') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> AI</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index2') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> CRM</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index3') }}"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> eCommerce</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index4') }}"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Cryptocurrency</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index5') }}"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Investment</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index6') }}"><i class="ri-circle-fill circle-icon text-purple w-auto"></i> LMS</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index7') }}"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> NFT & Gaming</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index8') }}"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Medical</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index9') }}"><i class="ri-circle-fill circle-icon text-purple w-auto"></i> Analytics</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.index10') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> POS & Inventory </a>
-                    </li>
-                </ul>--}}
-            </li>
-            <li class="sidebar-menu-group-title">Application</li>
-            <li>
-                <a href="{{ route('admin.email') }}">
-                    <iconify-icon icon="mage:email" class="menu-icon"></iconify-icon>
-                    <span>Email</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.chatMessage') }}">
-                    <iconify-icon icon="bi:chat-dots" class="menu-icon"></iconify-icon>
-                    <span>Chat</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.calendar') }}">
-                    <iconify-icon icon="solar:calendar-outline" class="menu-icon"></iconify-icon>
-                    <span>Calendar</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.kanban') }}">
-                    <iconify-icon icon="material-symbols:map-outline" class="menu-icon"></iconify-icon>
-                    <span>Kanban</span>
-                </a>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
-                    <span>Invoice</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.invoiceList') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.invoicePreview') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Preview</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.invoiceAdd') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Add new</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.invoiceEdit') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Edit</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <i class="ri-robot-2-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Ai Application</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.textGenerator') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Text Generator</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.codeGenerator') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Code Generator</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.imageGenerator') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Image Generator</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.voiceGenerator') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Voice Generator</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.videoGenerator') }}"><i
-                                class="ri-circle-fill circle-icon text-success-main w-auto"></i> Video Generator</a>
-                    </li>
-                </ul>
             </li>
 
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <i class="ri-btc-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Crypto Currency</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.wallet') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Wallet</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.marketplace') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Marketplace</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.marketplaceDetails') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Marketplace Details</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.portfolio') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Portfolios</a>
-                    </li>
-                </ul>
-            </li>
+            {{-- AI APPLICATION --}}
+            @can('permission', Permissions::AI)
+                @php $ai = isActive([
+                'admin.codeGenerator*',
+                'admin.textGenerator*',
+                'admin.imageGenerator*',
+                'admin.videoGenerator*',
+                'admin.voiceGenerator*'
+            ]) @endphp
+                <li class="dropdown {{ $ai ? 'mm-active' : '' }}">
+                    <a href="javascript:void(0)">
+                        <i class="ri-robot-2-line text-xl me-14 d-flex w-auto"></i>
+                        <span>Ai Application</span>
+                    </a>
+                    <ul class="sidebar-submenu" style="{{ $ai ? 'display:block;' : '' }}">
+                        <li><a class="{{ isActive('admin.textGenerator') ? 'active' : '' }}" href="{{ route('admin.textGenerator') }}"><i class="ri-circle-fill circle-icon text-primary-600"></i> Text Generator</a></li>
+                        <li><a class="{{ isActive('admin.codeGenerator') ? 'active' : '' }}" href="{{ route('admin.codeGenerator') }}"><i class="ri-circle-fill circle-icon text-warning-main"></i> Code Generator</a></li>
+                        <li><a class="{{ isActive('admin.codeGeneratorNew') ? 'active' : '' }}" href="{{ route('admin.codeGeneratorNew') }}"><i class="ri-circle-fill circle-icon text-warning-main"></i> Code Generator New</a></li>
+                        <li><a class="{{ isActive('admin.imageGenerator') ? 'active' : '' }}" href="{{ route('admin.imageGenerator') }}"><i class="ri-circle-fill circle-icon text-info-main"></i> Image Generator</a></li>
+                        <li><a class="{{ isActive('admin.videoGenerator') ? 'active' : '' }}" href="{{ route('admin.videoGenerator') }}"><i class="ri-circle-fill circle-icon text-success-main"></i> Video Generator</a></li>
+                        <li><a class="{{ isActive('admin.voiceGenerator') ? 'active' : '' }}" href="{{ route('admin.voiceGenerator') }}"><i class="ri-circle-fill circle-icon text-danger-main"></i> Voice Generator</a></li>
+                    </ul>
+                </li>
+            @endcan
 
-            <li class="sidebar-menu-group-title">UI Elements</li>
+            {{-- COMPONENTS --}}
+            @php
+                $components = isActive([
+                    'admin.alert',
+                    'admin.avatar',
+                    'admin.badges',
+                    'admin.button',
+                    'admin.card',
+                    'admin.carousel',
+                    'admin.colors',
+                    'admin.dropdown',
+                    'admin.imageUpload',
+                    'admin.list',
+                    'admin.pagination',
+                    'admin.progress',
+                    'admin.radio',
+                    'admin.starRating',
+                    'admin.switch',
+                    'admin.tabs',
+                    'admin.tags',
+                    'admin.tooltip',
+                    'admin.typography',
+                    'admin.videos',
+                ]);
+            @endphp
+            @can('permission', Permissions::COMPONENTS)
+                <li class="dropdown {{ $components ? 'mm-active' : '' }}">
+                    <a href="javascript:void(0)">
+                        <iconify-icon icon="solar:document-text-outline" class="menu-icon"></iconify-icon>
+                        <span>Components</span>
+                    </a>
 
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="solar:document-text-outline" class="menu-icon"></iconify-icon>
-                    <span>Components</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.typography') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Typography</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.colors') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Colors</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.button') }}"><i
-                                class="ri-circle-fill circle-icon text-success-main w-auto"></i> Button</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.dropdown') }}"><i
-                                class="ri-circle-fill circle-icon text-lilac-600 w-auto"></i> Dropdown</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.alert') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Alerts</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.card') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Card</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.carousel') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Carousel</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.avatar') }}"><i
-                                class="ri-circle-fill circle-icon text-success-main w-auto"></i> Avatars</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.progress') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Progress bar</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.tabs') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Tab & Accordion</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.pagination') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Pagination</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.badges') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Badges</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.tooltip') }}"><i
-                                class="ri-circle-fill circle-icon text-lilac-600 w-auto"></i> Tooltip & Popover</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.videos') }}"><i
-                                class="ri-circle-fill circle-icon text-cyan w-auto"></i> Videos</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.starRating') }}"><i
-                                class="ri-circle-fill circle-icon text-indigo w-auto"></i> Star Ratings</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.tags') }}"><i
-                                class="ri-circle-fill circle-icon text-purple w-auto"></i> Tags</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.list') }}"><i class="ri-circle-fill circle-icon text-red w-auto"></i>
-                            List</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.calendar') }}"><i
-                                class="ri-circle-fill circle-icon text-yellow w-auto"></i> Calendar</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.radio') }}"><i
-                                class="ri-circle-fill circle-icon text-orange w-auto"></i> Radio</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.switch') }}"><i
-                                class="ri-circle-fill circle-icon text-pink w-auto"></i> Switch</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.imageUpload') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Upload</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="heroicons:document" class="menu-icon"></iconify-icon>
-                    <span>Forms</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.form') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Input Forms</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.formLayout') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Input Layout</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.formValidation') }}"><i
-                                class="ri-circle-fill circle-icon text-success-main w-auto"></i> Form Validation</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.wizard') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Form Wizard</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="mingcute:storage-line" class="menu-icon"></iconify-icon>
-                    <span>Table</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.tableBasic') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Basic Table</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.tableData') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Data Table</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="solar:pie-chart-outline" class="menu-icon"></iconify-icon>
-                    <span>Chart</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.lineChart') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Line Chart</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.columnChart') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Column Chart</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.pieChart') }}"><i
-                                class="ri-circle-fill circle-icon text-success-main w-auto"></i> Pie Chart</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="{{ route('admin.widgets') }}">
-                    <iconify-icon icon="fe:vector" class="menu-icon"></iconify-icon>
-                    <span>Widgets</span>
-                </a>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="flowbite:users-group-outline" class="menu-icon"></iconify-icon>
-                    <span>Users</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.usersList') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Users List</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.usersGrid') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Users Grid</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.addUser') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Add User</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.viewProfile') }}"><i
-                                class="ri-circle-fill circle-icon text-danger-main w-auto"></i> View Profile</a>
-                    </li>
-                </ul>
-            </li>
+                    <ul class="sidebar-submenu" style="{{ $components ? 'display:block;' : '' }}">
+                        <li><a class="{{ isActive('admin.alert') ? 'active' : '' }}" href="{{ route('admin.alert') }}">Alert</a></li>
+                        <li><a class="{{ isActive('admin.avatar') ? 'active' : '' }}" href="{{ route('admin.avatar') }}">Avatar</a></li>
+                        <li><a class="{{ isActive('admin.badges') ? 'active' : '' }}" href="{{ route('admin.badges') }}">Badges</a></li>
+                        <li><a class="{{ isActive('admin.button') ? 'active' : '' }}" href="{{ route('admin.button') }}">Button</a></li>
+                        <li><a class="{{ isActive('admin.card') ? 'active' : '' }}" href="{{ route('admin.card') }}">Card</a></li>
+                        <li><a class="{{ isActive('admin.carousel') ? 'active' : '' }}" href="{{ route('admin.carousel') }}">Carousel</a></li>
+                        <li><a class="{{ isActive('admin.colors') ? 'active' : '' }}" href="{{ route('admin.colors') }}">Colors</a></li>
+                        <li><a class="{{ isActive('admin.dropdown') ? 'active' : '' }}" href="{{ route('admin.dropdown') }}">Dropdown</a></li>
+                        <li><a class="{{ isActive('admin.imageUpload') ? 'active' : '' }}" href="{{ route('admin.imageUpload') }}">Image Upload</a></li>
+                        <li><a class="{{ isActive('admin.list') ? 'active' : '' }}" href="{{ route('admin.list') }}">List</a></li>
+                        <li><a class="{{ isActive('admin.pagination') ? 'active' : '' }}" href="{{ route('admin.pagination') }}">Pagination</a></li>
+                        <li><a class="{{ isActive('admin.progress') ? 'active' : '' }}" href="{{ route('admin.progress') }}">Progress</a></li>
+                        <li><a class="{{ isActive('admin.radio') ? 'active' : '' }}" href="{{ route('admin.radio') }}">Radio</a></li>
+                        <li><a class="{{ isActive('admin.starRating') ? 'active' : '' }}" href="{{ route('admin.starRating') }}">Star Rating</a></li>
+                        <li><a class="{{ isActive('admin.switch') ? 'active' : '' }}" href="{{ route('admin.switch') }}">Switch</a></li>
+                        <li><a class="{{ isActive('admin.tabs') ? 'active' : '' }}" href="{{ route('admin.tabs') }}">Tabs</a></li>
+                        <li><a class="{{ isActive('admin.tags') ? 'active' : '' }}" href="{{ route('admin.tags') }}">Tags</a></li>
+                        <li><a class="{{ isActive('admin.tooltip') ? 'active' : '' }}" href="{{ route('admin.tooltip') }}">Tooltip</a></li>
+                        <li><a class="{{ isActive('admin.typography') ? 'active' : '' }}" href="{{ route('admin.typography') }}">Typography</a></li>
+                        <li><a class="{{ isActive('admin.videos') ? 'active' : '' }}" href="{{ route('admin.videos') }}">Videos</a></li>
+                    </ul>
+                </li>
+            @endcan
 
-            <li class="sidebar-menu-group-title">Application</li>
+            {{-- FORMS --}}
+            @can('permission', Permissions::FORMS)
+                @php $forms = isActive('admin.form*') @endphp
+                <li class="dropdown {{ $forms ? 'mm-active' : '' }}">
+                    <a href="javascript:void(0)">
+                        <iconify-icon icon="heroicons:document" class="menu-icon"></iconify-icon>
+                        <span>Forms</span>
+                    </a>
+                    <ul class="sidebar-submenu" style="{{ $forms ? 'display:block;' : '' }}">
+                        <li><a class="{{ isActive('admin.form') ? 'active' : '' }}" href="{{ route('admin.form') }}">Form</a></li>
+                        <li><a class="{{ isActive('admin.formLayout') ? 'active' : '' }}" href="{{ route('admin.formLayout') }}">Form Layout</a></li>
+                        <li><a class="{{ isActive('admin.formValidation') ? 'active' : '' }}" href="{{ route('admin.formValidation') }}">Form Validation</a></li>
+                        <li><a class="{{ isActive('admin.wizard') ? 'active' : '' }}" href="{{ route('admin.wizard') }}">Wizard</a></li>
+                    </ul>
+                </li>
+            @endcan
 
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <iconify-icon icon="simple-line-icons:vector" class="menu-icon"></iconify-icon>
-                    <span>Authentication</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.login') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Sign In</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.signup') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Sign Up</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.forgotPassword') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Forgot Password</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="{{ route('admin.gallery') }}">
-                    <iconify-icon icon="solar:gallery-wide-linear" class="menu-icon"></iconify-icon>
-                    <span>Gallery</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.pricing') }}">
-                    <iconify-icon icon="hugeicons:money-send-square" class="menu-icon"></iconify-icon>
-                    <span>Pricing</span>
-                </a>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">
-                    <i class="ri-news-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Blog</span>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="{{ route('admin.blog') }}"><i
-                                class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Blog</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.blogDetails') }}"><i
-                                class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Blog Details</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('admin.addBlog') }}"><i
-                                class="ri-circle-fill circle-icon text-info-main w-auto"></i> Add Blog</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="{{ route('admin.testimonials') }}">
-                    <i class="ri-star-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Testimonial</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.faq') }}">
-                    <iconify-icon icon="mage:message-question-mark-round" class="menu-icon"></iconify-icon>
-                    <span>FAQs</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.error') }}">
-                    <iconify-icon icon="streamline:straight-face" class="menu-icon"></iconify-icon>
-                    <span>404</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.termsCondition') }}">
-                    <iconify-icon icon="octicon:info-24" class="menu-icon"></iconify-icon>
-                    <span>Terms & Conditions</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.comingSoon') }}">
-                    <i class="ri-rocket-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Coming Soon</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.maintenance') }}">
-                    <i class="ri-hammer-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Maintenance</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('admin.blankPage') }}">
-                    <i class="ri-checkbox-multiple-blank-line text-xl me-6 d-flex w-auto"></i>
-                    <span>Blank Page</span>
-                </a>
-            </li>
+            {{-- USERS --}}
+            @can('permission', Permissions::USERS)
+                @php $users = isActive('admin.users*') @endphp
+                <li class="dropdown {{ $users ? 'mm-active' : '' }}">
+                    <a href="javascript:void(0)">
+                        <iconify-icon icon="flowbite:users-group-outline" class="menu-icon"></iconify-icon>
+                        <span>Users</span>
+                    </a>
+                    <ul class="sidebar-submenu" style="{{ $users ? 'display:block;' : '' }}">
+                        <li><a class="{{ isActive('admin.usersList') ? 'active' : '' }}" href="{{ route('admin.usersList') }}">Users List</a></li>
+                        <li><a class="{{ isActive('admin.usersGrid') ? 'active' : '' }}" href="{{ route('admin.usersGrid') }}">Users Grid</a></li>
+                        <li><a class="{{ isActive('admin.viewProfile') ? 'active' : '' }}" href="{{ route('admin.viewProfile') }}">View Profile</a></li>
+                        <li><a class="{{ isActive('admin.addUser') ? 'active' : '' }}" href="{{ route('admin.addUser') }}">Add User</a></li>
+                    </ul>
+                </li>
+            @endcan
+
+            {{-- SETTINGS --}}
+            @can('permission', Permissions::SETTINGS)
+                @php $settings = isActive('admin.company','admin.currencies','admin.language','admin.notification*','admin.theme','admin.paymentGateway') @endphp
+                <li class="dropdown {{ $settings ? 'mm-active' : '' }}">
+                    <a href="javascript:void(0)">
+                        <iconify-icon icon="icon-park-outline:setting-two" class="menu-icon"></iconify-icon>
+                        <span>Settings</span>
+                    </a>
+                    <ul class="sidebar-submenu" style="{{ $settings ? 'display:block;' : '' }}">
+                        <li><a class="{{ isActive('admin.company') ? 'active' : '' }}" href="{{ route('admin.company') }}">Company</a></li>
+                        <li><a class="{{ isActive('admin.currencies') ? 'active' : '' }}" href="{{ route('admin.currencies') }}">Currencies</a></li>
+                        <li><a class="{{ isActive('admin.language') ? 'active' : '' }}" href="{{ route('admin.language') }}">Language</a></li>
+                        <li><a class="{{ isActive('admin.notification') ? 'active' : '' }}" href="{{ route('admin.notification') }}">Notification</a></li>
+                        <li><a class="{{ isActive('admin.notificationAlert') ? 'active' : '' }}" href="{{ route('admin.notificationAlert') }}">Notification Alert</a></li>
+                        <li><a class="{{ isActive('admin.paymentGateway') ? 'active' : '' }}" href="{{ route('admin.paymentGateway') }}">Payment Gateway</a></li>
+                        <li><a class="{{ isActive('admin.theme') ? 'active' : '' }}" href="{{ route('admin.theme') }}">Theme</a></li>
+                    </ul>
+                </li>
+            @endcan
+
         </ul>
     </div>
 </aside>

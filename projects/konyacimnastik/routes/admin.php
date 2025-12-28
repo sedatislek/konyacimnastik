@@ -1,9 +1,18 @@
 <?php
 
+use App\Support\Permissions;
 use Illuminate\Support\Facades\Route;
+
+/* AUTH */
 use App\Http\Controllers\Admin\Auth\AdminLoginController;
 use App\Http\Controllers\Admin\AuthenticationController;
+
+/* CORE */
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\Admin\RoleandaccessController;
+
+/* MODULES */
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\AiapplicationController;
 use App\Http\Controllers\Admin\ChartController;
@@ -14,38 +23,37 @@ use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\Admin\TableController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\Admin\BlogController;
-use App\Http\Controllers\Admin\RoleandaccessController;
 use App\Http\Controllers\Admin\CryptocurrencyController;
-
 
 Route::prefix('admin')->name('admin.')->group(function () {
 
-    // GUEST ADMIN (login, signup, forgot)
+    /*
+    |--------------------------------------------------------------------------
+    | GUEST ADMIN
+    |--------------------------------------------------------------------------
+    */
     Route::middleware('guest:admin')->group(function () {
         Route::get('/login', [AdminLoginController::class, 'showLoginForm'])->name('login');
         Route::post('/login', [AdminLoginController::class, 'login'])->name('login.post');
-
-        Route::get('/forgot-password', [AuthenticationController::class, 'forgotPassword'])
-            ->name('forgotPassword');
-
-        Route::get('/signup', [AuthenticationController::class, 'signup'])
-            ->name('signup');
+        Route::get('/forgot-password', [AuthenticationController::class, 'forgotPassword'])->name('forgotPassword');
+        Route::get('/signup', [AuthenticationController::class, 'signup'])->name('signup');
     });
 
-    // AUTH ADMIN
+    /*
+    |--------------------------------------------------------------------------
+    | AUTH ADMIN
+    |--------------------------------------------------------------------------
+    */
     Route::middleware(['auth:admin', 'is_admin'])->group(function () {
 
+        /* DASHBOARD */
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
         Route::post('/logout', [AdminLoginController::class, 'logout'])->name('logout');
 
-        /*
-        |--------------------------------------------------------------------------
-        | SETTINGS
-        |--------------------------------------------------------------------------
-        */
+        /* SETTINGS */
         Route::prefix('settings')
+            ->middleware('permission:' . Permissions::SETTINGS)
             ->controller(SettingsController::class)
-            ->middleware('can:permission,settings.manage')
             ->group(function () {
                 Route::get('company', 'company')->name('company');
                 Route::get('currencies', 'currencies')->name('currencies');
@@ -56,61 +64,45 @@ Route::prefix('admin')->name('admin.')->group(function () {
                 Route::get('theme', 'theme')->name('theme');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | ROLE & ACCESS
-        |--------------------------------------------------------------------------
-        */
-        Route::prefix('roleandaccess')
-            ->controller(RoleandaccessController::class)
-            ->middleware('can:permission,roles.manage')
+        /* MENU */
+        Route::prefix('menus')
+            ->name('menus.')
+            ->middleware('permission:' . Permissions::SETTINGS)
+            ->controller(MenuController::class)
             ->group(function () {
-                // 1️⃣ ADMIN → ROLE
-                Route::get('assign-role', 'assignRole')
-                    ->name('assignRole');
-
-                Route::post('assign-role', 'assignRoleStore')
-                    ->name('assignRole.store');
-
-                // 2️⃣ ROLE → PERMISSION
-                Route::get('role-access', 'roleAaccess')
-                    ->name('roleAaccess');
-
-                Route::post('role-access/{role}', 'updateRolePermissions')
-                    ->name('roleAaccess.update');
+                Route::get('/', 'index')->name('index');
+                Route::get('{menu}/edit', 'edit')->name('edit');
+                Route::put('{menu}', 'update')->name('update');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | HOME / COMMON PAGES
-        |--------------------------------------------------------------------------
-        */
+        /* ROLE & ACCESS */
+        Route::prefix('roleandaccess')
+            ->middleware('permission:' . Permissions::ROLES)
+            ->controller(RoleandaccessController::class)
+            ->group(function () {
+                Route::get('assign-role', 'assignRole')->name('assignRole');
+                Route::post('assign-role', 'assignRoleStore')->name('assignRole.store');
+                Route::get('role-access', 'roleAaccess')->name('roleAaccess');
+                Route::post('role-access/{role}', 'updateRolePermissions')->name('roleAaccess.update');
+            });
+
+        /* HOME / COMMON */
         Route::controller(HomeController::class)->group(function () {
+            Route::get('email', 'email')->name('email');
             Route::get('chatmessage', 'chatMessage')->name('chatMessage');
             Route::get('chatempty', 'chatempty')->name('chatempty');
-            Route::get('email', 'email')->name('email');
-            Route::get('error', 'error1')->name('error');
             Route::get('faq', 'faq')->name('faq');
             Route::get('gallery', 'gallery')->name('gallery');
+            Route::get('calendar', 'calendar')->name('calendar');
             Route::get('kanban', 'kanban')->name('kanban');
             Route::get('pricing', 'pricing')->name('pricing');
-            Route::get('termscondition', 'termsCondition')->name('termsCondition');
             Route::get('widgets', 'widgets')->name('widgets');
-            Route::get('chatprofile', 'chatProfile')->name('chatProfile');
-            Route::get('veiwdetails', 'veiwDetails')->name('veiwDetails');
-            Route::get('blankPage', 'blankPage')->name('blankPage')->middleware('can:permission,dashboard.view');;
-            Route::get('comingSoon', 'comingSoon')->name('comingSoon');
-            Route::get('maintenance', 'maintenance')->name('maintenance');
-            Route::get('starred', 'starred')->name('starred');
-            Route::get('testimonials', 'testimonials')->name('testimonials');
+            Route::get('blankPage', 'blankPage')->name('blankPage');
         });
 
-        /*
-        |--------------------------------------------------------------------------
-        | AI APPLICATION
-        |--------------------------------------------------------------------------
-        */
+        /* AI APPLICATION */
         Route::prefix('aiapplication')
+            ->middleware('permission:' . Permissions::AI)
             ->controller(AiapplicationController::class)
             ->group(function () {
                 Route::get('codegenerator', 'codeGenerator')->name('codeGenerator');
@@ -122,12 +114,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
                 Route::get('voicegenerator', 'voiceGenerator')->name('voiceGenerator');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | CHARTS
-        |--------------------------------------------------------------------------
-        */
+        /* CHARTS */
         Route::prefix('chart')
+            ->middleware('permission:' . Permissions::CHARTS)
             ->controller(ChartController::class)
             ->group(function () {
                 Route::get('columnchart', 'columnChart')->name('columnChart');
@@ -135,13 +124,10 @@ Route::prefix('admin')->name('admin.')->group(function () {
                 Route::get('piechart', 'pieChart')->name('pieChart');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | COMPONENT PAGES
-        |--------------------------------------------------------------------------
-        */
+        /* COMPONENTS */
         Route::prefix('componentpage')
             ->controller(ComponentpageController::class)
+            ->middleware('permission:' . Permissions::COMPONENTS)
             ->group(function () {
                 Route::get('alert', 'alert')->name('alert');
                 Route::get('avatar', 'avatar')->name('avatar');
@@ -166,45 +152,20 @@ Route::prefix('admin')->name('admin.')->group(function () {
                 Route::get('videos', 'videos')->name('videos');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | DASHBOARD VARIANTS
-        |--------------------------------------------------------------------------
-        */
-        Route::prefix('dashboard')
-            ->controller(DashboardController::class)
-            ->group(function () {
-                Route::get('index2', 'index2')->name('index2');
-                Route::get('index3', 'index3')->name('index3');
-                Route::get('index4', 'index4')->name('index4');
-                Route::get('index5', 'index5')->name('index5');
-                Route::get('index6', 'index6')->name('index6');
-                Route::get('index7', 'index7')->name('index7');
-                Route::get('index8', 'index8')->name('index8');
-                Route::get('index9', 'index9')->name('index9');
-                Route::get('index10', 'index10')->name('index10');
-            });
-
-        /*
-        |--------------------------------------------------------------------------
-        | FORMS
-        |--------------------------------------------------------------------------
-        */
+        /* FORMS */
         Route::prefix('forms')
+            ->middleware('permission:' . Permissions::FORMS)
             ->controller(FormsController::class)
             ->group(function () {
+                Route::get('form', 'form')->name('form');
                 Route::get('form-layout', 'formLayout')->name('formLayout');
                 Route::get('form-validation', 'formValidation')->name('formValidation');
-                Route::get('form', 'form')->name('form');
                 Route::get('wizard', 'wizard')->name('wizard');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | INVOICE
-        |--------------------------------------------------------------------------
-        */
+        /* INVOICE */
         Route::prefix('invoice')
+            ->middleware('permission:' . Permissions::INVOICE)
             ->controller(InvoiceController::class)
             ->group(function () {
                 Route::get('invoice-add', 'invoiceAdd')->name('invoiceAdd');
@@ -213,51 +174,43 @@ Route::prefix('admin')->name('admin.')->group(function () {
                 Route::get('invoice-preview', 'invoicePreview')->name('invoicePreview');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | TABLES
-        |--------------------------------------------------------------------------
-        */
+        /* TABLES */
         Route::prefix('table')
+            ->middleware('permission:' . Permissions::TABLES)
             ->controller(TableController::class)
             ->group(function () {
                 Route::get('tablebasic', 'tableBasic')->name('tableBasic');
                 Route::get('tabledata', 'tableData')->name('tableData');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | USERS
-        |--------------------------------------------------------------------------
-        */
+        /* USERS */
         Route::prefix('users')
+            ->middleware('permission:' . Permissions::USERS)
             ->controller(UsersController::class)
             ->group(function () {
-                Route::get('add-user', 'addUser')->name('addUser');
-                Route::get('users-grid', 'usersGrid')->name('usersGrid');
                 Route::get('users-list', 'usersList')->name('usersList');
+                Route::get('users-grid', 'usersGrid')->name('usersGrid');
                 Route::get('view-profile', 'viewProfile')->name('viewProfile');
+                Route::get('add-user', 'addUser')
+                    ->middleware('permission:users.manage')
+                    ->name('addUser');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | BLOG
-        |--------------------------------------------------------------------------
-        */
+        /* BLOG */
         Route::prefix('blog')
+            ->middleware('permission:' . Permissions::BLOG)
             ->controller(BlogController::class)
             ->group(function () {
-                Route::get('addBlog', 'addBlog')->name('addBlog');
                 Route::get('blog', 'blog')->name('blog');
                 Route::get('blogDetails', 'blogDetails')->name('blogDetails');
+                Route::get('addBlog', 'addBlog')
+                    ->middleware('permission:blog.create')
+                    ->name('addBlog');
             });
 
-        /*
-        |--------------------------------------------------------------------------
-        | CRYPTOCURRENCY
-        |--------------------------------------------------------------------------
-        */
+        /* CRYPTO */
         Route::prefix('cryptocurrency')
+            ->middleware('permission:' . Permissions::CRYPTO)
             ->controller(CryptocurrencyController::class)
             ->group(function () {
                 Route::get('marketplace', 'marketplace')->name('marketplace');

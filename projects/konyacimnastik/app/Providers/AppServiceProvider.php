@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\Facades\Blade;
+use App\Services\AdminPermissionService;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 
@@ -21,26 +21,21 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Blade::if('permission', function ($permission) {
-            return admin_can($permission);
-        });
-
-        Gate::before(function ($admin, $ability) {
+        // Superadmin her şeyi görür
+        Gate::before(function ($user) {
             if (
                 auth('admin')->check() &&
-                auth('admin')->user()?->roles->contains('key', 'superadmin')
+                auth('admin')->user()
+                    ->roles
+                    ->contains('key', 'superadmin')
             ) {
                 return true;
             }
         });
 
-        Gate::define('permission', function ($admin, $permissionKey = null) {
-            if (! is_string($permissionKey)) {
-                return false;
-            }
-
+        // Genel permission kontrolü
+        Gate::define('permission', function ($user, string $permissionKey) {
             return admin_can($permissionKey);
         });
-
     }
 }
